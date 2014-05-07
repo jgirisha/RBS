@@ -31,9 +31,11 @@ function scanClicked() {
 		Barcode.capture({
 			animate : true,
 			overlay : overlay,
-			showCancel : true,
+			showCancel : false,
 			showRectangle : true
 		});
+		
+		
 	} else if (OS_MOBILEWEB) {
 		alert("Sorry! This feature is not available on a browser.");
 	}
@@ -42,7 +44,6 @@ function scanClicked() {
 
 if (!OS_MOBILEWEB) {
 	var Barcode = require('ti.barcode');
-	Barcode.allowRotation = false;
 	Barcode.displayedMessage = '';
 	Barcode.allowMenu = false;
 	Barcode.allowInstructions = true;
@@ -61,15 +62,17 @@ if (!OS_MOBILEWEB) {
 		text : 'Show us the prescription you want to refill.',
 		textAlign : 'center',
 		color : '#fff',
-		backgroundColor : '#888888',
+		backgroundColor : (OS_IOS)?'#888888':'transparent',
 		font : {
-			fontWeight : 'bold',
 			fontSize : 16
 		},
 		borderColor : 'transparent',
 		opacity : 1,
 		height : 30,
-		top : 10
+		width: Ti.UI.FILL,
+		top : OS_IOS?'20dp':'10dp',
+		left: '5dp',
+		right:'5dp'
 	});
 	overlay.add(lblInsructionTop);
 
@@ -77,16 +80,36 @@ if (!OS_MOBILEWEB) {
 		text : "Center the bar code within the rectangle. Hold the phone still from 6-8 inches away until it's scanned.",
 		textAlign : 'center',
 		color : '#fff',
-		backgroundColor : '#888888',
+		backgroundColor : (OS_IOS)?'#888888':'transparent',
 		font : {
 			fontSize : 14
 		},
 		borderColor : 'transparent',
 		opacity : 1,
-		height : 40,
-		bottom : 0
+		height : OS_IOS?'60dp':'40dp',
+		width: Ti.UI.FILL,
+		bottom : 0,
+		left: '5dp',
+		right:'5dp'
 	});
 	overlay.add(lblInsructionBottom);
+
+	if(OS_IOS){
+		var cancelButton = Ti.UI.createButton({
+    title: 'Cancel', textAlign: 'center',
+    color: '#000', backgroundColor: '#fff', style: 0,
+    font: { fontWeight: 'bold', fontSize: 16 },
+    borderColor: '#000', borderRadius: 10, borderWidth: 1,
+    opacity: 1,
+    width: 100, height: 30,
+    bottom: 80
+});
+cancelButton.addEventListener('click', function () {
+    Barcode.cancel();
+});
+overlay.add(cancelButton);
+
+	}
 
 	//Barcode scan: Success
 	Barcode.addEventListener('success', function(e) {
@@ -98,11 +121,6 @@ if (!OS_MOBILEWEB) {
 	Barcode.addEventListener('error', function(e) {
 		// Barcode.cancel();
 		alert('No valid barcode found. Please scan again.');
-	});
-	
-	//Barcode Scan: Cancel
-	Barcode.addEventListener('cancel', function(e) {
-		Barcode.cancel();
 	});
 
 	//On successful scan

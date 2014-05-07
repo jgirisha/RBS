@@ -8,3 +8,17 @@
 	right: '10dp',
 	top: '15dp'
 }
+
+"#btnNext":{
+	top: '10dp'
+}
+
+"#contactScrollView":{
+	top: 0,
+	width: "100%",
+	height: Ti.UI.FILL,
+	showVerticalScrollIndicator: true,
+	showHorizontalScrollIndicator: false,
+	backgroundColor: "white",
+	horizontalBounce: false
+}

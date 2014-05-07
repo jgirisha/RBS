@@ -9,7 +9,8 @@
 	height: Ti.UI.FILL,
 	showVerticalScrollIndicator: true,
 	showHorizontalScrollIndicator: false,
-	backgroundColor: "white"
+	backgroundColor: "white",
+	horizontalBounce: false
 }
 
 "#detailView":{

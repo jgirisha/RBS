@@ -8,8 +8,6 @@ function Controller() {
             Alloy.Globals.clientColor = "#ee6e1a";
         }
         $.logoImage.image = "/images/" + Alloy.Globals.clientName + "/image_HeaderLogo.png";
-        $.rbs.color = Alloy.Globals.clientColor;
-        $.rbs.borderColor = Alloy.Globals.clientColor;
         $.scan.color = Alloy.Globals.clientColor;
         $.scan.borderColor = Alloy.Globals.clientColor;
         $.switchClient.color = Alloy.Globals.clientColor;
@@ -19,8 +17,9 @@ function Controller() {
         Barcode.capture({
             animate: true,
             overlay: overlay,
-            showCancel: true,
-            showRectangle: true
+            showCancel: false,
+            showRectangle: true,
+            allowRotation: false
         });
     }
     function loadNextPage() {
@@ -61,7 +60,7 @@ function Controller() {
     $.__views.landing.add($.__views.logoImage);
     $.__views.scan = Ti.UI.createButton({
         center: {
-            x: "70%",
+            x: "50%",
             y: "50%"
         },
         width: "100dp",
@@ -108,7 +107,7 @@ function Controller() {
     var rxNumber = "";
     $.logoImage.image = "/images/" + Alloy.Globals.clientName + "/image_HeaderLogo.png";
     var Barcode = require("ti.barcode");
-    Barcode.allowRotation = true;
+    Barcode.allowRotation = false;
     Barcode.displayedMessage = "";
     Barcode.allowMenu = false;
     Barcode.allowInstructions = true;
@@ -126,14 +125,15 @@ function Controller() {
         color: "#fff",
         backgroundColor: "transparent",
         font: {
-            fontWeight: "bold",
             fontSize: 16
         },
         borderColor: "transparent",
         opacity: 1,
-        width: 400,
         height: 30,
-        top: 10
+        width: Ti.UI.FILL,
+        top: "10dp",
+        left: "5dp",
+        right: "5dp"
     });
     overlay.add(lblInsructionTop);
     var lblInsructionBottom = Ti.UI.createLabel({
@@ -146,9 +146,11 @@ function Controller() {
         },
         borderColor: "transparent",
         opacity: 1,
-        width: 450,
-        height: 40,
-        bottom: 0
+        height: "40dp",
+        width: Ti.UI.FILL,
+        bottom: 0,
+        left: "5dp",
+        right: "5dp"
     });
     overlay.add(lblInsructionBottom);
     Barcode.addEventListener("success", function(e) {
@@ -157,6 +159,9 @@ function Controller() {
     });
     Barcode.addEventListener("error", function() {
         alert("No valid barcode found. Please scan again.");
+    });
+    Barcode.addEventListener("cancel", function() {
+        Barcode.cancel();
     });
     __defers["$.__views.scan!click!scanClicked"] && $.__views.scan.addEventListener("click", scanClicked);
     __defers["$.__views.switchClient!click!switchClient"] && $.__views.switchClient.addEventListener("click", switchClient);

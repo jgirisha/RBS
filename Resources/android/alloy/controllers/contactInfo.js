@@ -41,7 +41,7 @@ function Controller() {
         top: 20,
         height: 100,
         id: "imgcontactinfo",
-        image: "/images/imgcontact.png",
+        image: "/images/imgcontact.PNG",
         width: Ti.UI.SIZE
     });
     $.__views.__alloyId0.add($.__views.imgcontactinfo);
@@ -63,7 +63,7 @@ function Controller() {
         top: "15dp",
         left: "10dp",
         right: "10dp",
-        keyboardType: Titanium.UI.KEYBOARD_PHONE_PAD,
+        keyboardType: Titanium.UI.KEYBOARD_NUMBER_PAD,
         returnKeyType: Titanium.UI.RETURNKEY_DONE,
         id: "txtmobilenumber",
         hintText: "Mobile number"
@@ -74,6 +74,7 @@ function Controller() {
     _.extend($, $.__views);
     var args = arguments[0] || {};
     __defers["$.__views.txtmobilenumber!return!btnNextClicked"] && $.__views.txtmobilenumber.addEventListener("return", btnNextClicked);
+    __defers["$.__views.btnNext!click!btnNextClicked"] && $.__views.btnNext.addEventListener("click", btnNextClicked);
     _.extend($, exports);
 }
 

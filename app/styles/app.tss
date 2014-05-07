@@ -97,6 +97,6 @@
 }
 
 ".numericField":{
-	keyboardType: Titanium.UI.KEYBOARD_PHONE_PAD,
+	keyboardType: Titanium.UI.KEYBOARD_NUMBER_PAD,
 	returnKeyType: Titanium.UI.RETURNKEY_DONE
 }
