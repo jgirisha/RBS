@@ -1121,7 +1121,11 @@ var require = {
 
 require.cache({
 "Ti/_/image":function(){
+<<<<<<< HEAD
+/* /titanium/Ti/_/image.js */
+=======
 /* E:\TitaniumWorkspace\RBS\build\mobileweb\titanium\Ti\_\image.js */
+>>>>>>> 291e3d13c9a6ef14948c30cf0d8e7695a8e14f46
 
 define(function() {
 	return {
@@ -1143,7 +1147,11 @@ define(function() {
 
 },
 "Ti/_/include":function(){
+<<<<<<< HEAD
+/* /titanium/Ti/_/include.js */
+=======
 /* E:\TitaniumWorkspace\RBS\build\mobileweb\titanium\Ti\_\include.js */
+>>>>>>> 291e3d13c9a6ef14948c30cf0d8e7695a8e14f46
 
 define(function() {
 	var cache = {},
@@ -1202,7 +1210,11 @@ define(function() {
 
 },
 "Ti":function(){
+<<<<<<< HEAD
+/* /titanium/Ti.js */
+=======
 /* E:\TitaniumWorkspace\RBS\build\mobileweb\titanium\Ti.js */
+>>>>>>> 291e3d13c9a6ef14948c30cf0d8e7695a8e14f46
 
 /**
  * This file contains source code from the following:
@@ -1506,7 +1518,11 @@ define(
 });
 },
 "Ti/_":function(){
+<<<<<<< HEAD
+/* /titanium/Ti/_.js */
+=======
 /* E:\TitaniumWorkspace\RBS\build\mobileweb\titanium\Ti\_.js */
+>>>>>>> 291e3d13c9a6ef14948c30cf0d8e7695a8e14f46
 
 define(["Ti/_/lang"], function(lang) {
 	// Pre-calculate the screen DPI
@@ -1557,7 +1573,11 @@ define(["Ti/_/lang"], function(lang) {
 });
 },
 "Ti/_/lang":function(){
+<<<<<<< HEAD
+/* /titanium/Ti/_/lang.js */
+=======
 /* E:\TitaniumWorkspace\RBS\build\mobileweb\titanium\Ti\_\lang.js */
+>>>>>>> 291e3d13c9a6ef14948c30cf0d8e7695a8e14f46
 
 /**
  * hitch() and setObject() functionality based on code from Dojo Toolkit.
@@ -1783,7 +1803,11 @@ define(['Ti/_/has'], function (has) {
 });
 },
 "Ti/_/has":function(){
+<<<<<<< HEAD
+/* /titanium/Ti/_/has.js */
+=======
 /* E:\TitaniumWorkspace\RBS\build\mobileweb\titanium\Ti\_\has.js */
+>>>>>>> 291e3d13c9a6ef14948c30cf0d8e7695a8e14f46
 
 define(function() {
 
@@ -1843,7 +1867,11 @@ define(function() {
 
 },
 "Ti/API":function(){
+<<<<<<< HEAD
+/* /titanium/Ti/API.js */
+=======
 /* E:\TitaniumWorkspace\RBS\build\mobileweb\titanium\Ti\API.js */
+>>>>>>> 291e3d13c9a6ef14948c30cf0d8e7695a8e14f46
 
 /*global define, window*/
 define(['Ti/_/Evented', 'Ti/_/lang'], function(Evented, lang) {
@@ -1895,7 +1923,11 @@ define(['Ti/_/Evented', 'Ti/_/lang'], function(Evented, lang) {
 });
 },
 "Ti/_/Evented":function(){
+<<<<<<< HEAD
+/* /titanium/Ti/_/Evented.js */
+=======
 /* E:\TitaniumWorkspace\RBS\build\mobileweb\titanium\Ti\_\Evented.js */
+>>>>>>> 291e3d13c9a6ef14948c30cf0d8e7695a8e14f46
 
 /*global define*/
 define(function() {
@@ -1980,7 +2012,11 @@ define(function() {
 });
 },
 "Ti/_/analytics":function(){
+<<<<<<< HEAD
+/* /titanium/Ti/_/analytics.js */
+=======
 /* E:\TitaniumWorkspace\RBS\build\mobileweb\titanium\Ti\_\analytics.js */
+>>>>>>> 291e3d13c9a6ef14948c30cf0d8e7695a8e14f46
 
 define(["Ti/_", "Ti/_/dom", "Ti/_/has", "Ti/_/lang", "Ti/App", "Ti/Platform"],
 	function(_, dom, has, lang, App, Platform) {
@@ -2165,7 +2201,11 @@ define(["Ti/_", "Ti/_/dom", "Ti/_/has", "Ti/_/lang", "Ti/App", "Ti/Platform"],
 });
 },
 "Ti/_/dom":function(){
+<<<<<<< HEAD
+/* /titanium/Ti/_/dom.js */
+=======
 /* E:\TitaniumWorkspace\RBS\build\mobileweb\titanium\Ti\_\dom.js */
+>>>>>>> 291e3d13c9a6ef14948c30cf0d8e7695a8e14f46
 
 /**
  * create(), attr(), place(), & remove() functionality based on code from Dojo Toolkit.
@@ -2329,7 +2369,11 @@ define(["Ti/_", "Ti/API", "Ti/_/style"], function(_, API, style) {
 });
 },
 "Ti/_/style":function(){
+<<<<<<< HEAD
+/* /titanium/Ti/_/style.js */
+=======
 /* E:\TitaniumWorkspace\RBS\build\mobileweb\titanium\Ti\_\style.js */
+>>>>>>> 291e3d13c9a6ef14948c30cf0d8e7695a8e14f46
 
 define(["Ti/_", "Ti/_/string", "Ti/Filesystem"], function(_, string, Filesystem) {
 
@@ -2410,7 +2454,11 @@ define(["Ti/_", "Ti/_/string", "Ti/Filesystem"], function(_, string, Filesystem)
 });
 },
 "Ti/_/string":function(){
+<<<<<<< HEAD
+/* /titanium/Ti/_/string.js */
+=======
 /* E:\TitaniumWorkspace\RBS\build\mobileweb\titanium\Ti\_\string.js */
+>>>>>>> 291e3d13c9a6ef14948c30cf0d8e7695a8e14f46
 
 /**
  * String.format() functionality based on dojox.string code from Dojo Toolkit.
@@ -2775,7 +2823,11 @@ define(["Ti/_", "Ti/_/has", "Ti/_/lang"], function(_, has, lang) {
 });
 },
 "Ti/Filesystem":function(){
+<<<<<<< HEAD
+/* /titanium/Ti/Filesystem.js */
+=======
 /* E:\TitaniumWorkspace\RBS\build\mobileweb\titanium\Ti\Filesystem.js */
+>>>>>>> 291e3d13c9a6ef14948c30cf0d8e7695a8e14f46
 
 define(["Ti/_", "Ti/_/Evented", "Ti/_/lang", "Ti/Filesystem/File"],
 	function(_, Evented, lang, File) {
@@ -2867,7 +2919,11 @@ define(["Ti/_", "Ti/_/Evented", "Ti/_/lang", "Ti/Filesystem/File"],
 });
 },
 "Ti/Filesystem/File":function(){
+<<<<<<< HEAD
+/* /titanium/Ti/Filesystem/File.js */
+=======
 /* E:\TitaniumWorkspace\RBS\build\mobileweb\titanium\Ti\Filesystem\File.js */
+>>>>>>> 291e3d13c9a6ef14948c30cf0d8e7695a8e14f46
 
 define(["Ti/_/declare", "Ti/_/Filesystem/Local", "Ti/App/Properties"], function(declare, Local, Properties) {
 
@@ -2878,7 +2934,11 @@ define(["Ti/_/declare", "Ti/_/Filesystem/Local", "Ti/App/Properties"], function(
 });
 },
 "Ti/_/declare":function(){
+<<<<<<< HEAD
+/* /titanium/Ti/_/declare.js */
+=======
 /* E:\TitaniumWorkspace\RBS\build\mobileweb\titanium\Ti\_\declare.js */
+>>>>>>> 291e3d13c9a6ef14948c30cf0d8e7695a8e14f46
 
 /**
  * declare() functionality based on code from Dojo Toolkit.
@@ -2991,7 +3051,11 @@ define(['Ti/_', 'Ti/_/lang'], function(_, lang) {
 });
 },
 "Ti/_/Filesystem/Local":function(){
+<<<<<<< HEAD
+/* /titanium/Ti/_/Filesystem/Local.js */
+=======
 /* E:\TitaniumWorkspace\RBS\build\mobileweb\titanium\Ti\_\Filesystem\Local.js */
+>>>>>>> 291e3d13c9a6ef14948c30cf0d8e7695a8e14f46
 
 define(["Ti/_", "Ti/_/Evented", "Ti/_/declare", "Ti/_/encoding", "Ti/_/lang", "Ti/API", "Ti/Blob"],
 	function(_, Evented, declare, encoding, lang, API, Blob) {
@@ -3518,7 +3582,11 @@ define(["Ti/_", "Ti/_/Evented", "Ti/_/declare", "Ti/_/encoding", "Ti/_/lang", "T
 });
 },
 "Ti/_/encoding":function(){
+<<<<<<< HEAD
+/* /titanium/Ti/_/encoding.js */
+=======
 /* E:\TitaniumWorkspace\RBS\build\mobileweb\titanium\Ti\_\encoding.js */
+>>>>>>> 291e3d13c9a6ef14948c30cf0d8e7695a8e14f46
 
 define(["Ti/_/lang"], function(lang) {
 
@@ -3584,7 +3652,11 @@ define(["Ti/_/lang"], function(lang) {
 });
 },
 "Ti/Blob":function(){
+<<<<<<< HEAD
+/* /titanium/Ti/Blob.js */
+=======
 /* E:\TitaniumWorkspace\RBS\build\mobileweb\titanium\Ti\Blob.js */
+>>>>>>> 291e3d13c9a6ef14948c30cf0d8e7695a8e14f46
 
 define(["Ti/_", "Ti/_/declare", "Ti/_/Evented"], function(_, declare, Evented) {
 
@@ -3638,7 +3710,11 @@ define(["Ti/_", "Ti/_/declare", "Ti/_/Evented"], function(_, declare, Evented) {
 });
 },
 "Ti/App/Properties":function(){
+<<<<<<< HEAD
+/* /titanium/Ti/App/Properties.js */
+=======
 /* E:\TitaniumWorkspace\RBS\build\mobileweb\titanium\Ti\App\Properties.js */
+>>>>>>> 291e3d13c9a6ef14948c30cf0d8e7695a8e14f46
 
 define(["Ti/_/Evented", "Ti/_/lang"], function(Evented, lang) {
 
@@ -3727,7 +3803,11 @@ define(["Ti/_/Evented", "Ti/_/lang"], function(Evented, lang) {
 });
 },
 "Ti/App":function(){
+<<<<<<< HEAD
+/* /titanium/Ti/App.js */
+=======
 /* E:\TitaniumWorkspace\RBS\build\mobileweb\titanium\Ti\App.js */
+>>>>>>> 291e3d13c9a6ef14948c30cf0d8e7695a8e14f46
 
 define(["Ti/_", "Ti/_/Evented", "Ti/_/lang"], function(_, Evented, lang) {
 
@@ -3757,7 +3837,11 @@ define(["Ti/_", "Ti/_/Evented", "Ti/_/lang"], function(_, Evented, lang) {
 });
 },
 "Ti/Platform":function(){
+<<<<<<< HEAD
+/* /titanium/Ti/Platform.js */
+=======
 /* E:\TitaniumWorkspace\RBS\build\mobileweb\titanium\Ti\Platform.js */
+>>>>>>> 291e3d13c9a6ef14948c30cf0d8e7695a8e14f46
 
 define(["Ti/_", "Ti/_/browser", "Ti/_/Evented", "Ti/_/lang", "Ti/Locale", "Ti/_/dom", "Ti/UI"],
 	function(_, browser, Evented, lang, Locale, dom, UI) {
@@ -3876,7 +3960,11 @@ define(["Ti/_", "Ti/_/browser", "Ti/_/Evented", "Ti/_/lang", "Ti/Locale", "Ti/_/
 
 },
 "Ti/_/browser":function(){
+<<<<<<< HEAD
+/* /titanium/Ti/_/browser.js */
+=======
 /* E:\TitaniumWorkspace\RBS\build\mobileweb\titanium\Ti\_\browser.js */
+>>>>>>> 291e3d13c9a6ef14948c30cf0d8e7695a8e14f46
 
 define(["Ti/_"], function(_) {
 	var match = navigator.userAgent.toLowerCase().match(/(webkit|gecko|trident|presto)/);
@@ -3886,7 +3974,11 @@ define(["Ti/_"], function(_) {
 });
 },
 "Ti/Locale":function(){
+<<<<<<< HEAD
+/* /titanium/Ti/Locale.js */
+=======
 /* E:\TitaniumWorkspace\RBS\build\mobileweb\titanium\Ti\Locale.js */
+>>>>>>> 291e3d13c9a6ef14948c30cf0d8e7695a8e14f46
 
 define(["require", "Ti/_/lang", "Ti/_/Evented", "Ti/API"],
 	function(require, lang, Evented, API) {
@@ -3975,7 +4067,11 @@ define(["require", "Ti/_/lang", "Ti/_/Evented", "Ti/API"],
 });
 },
 "Ti/UI":function(){
+<<<<<<< HEAD
+/* /titanium/Ti/UI.js */
+=======
 /* E:\TitaniumWorkspace\RBS\build\mobileweb\titanium\Ti\UI.js */
+>>>>>>> 291e3d13c9a6ef14948c30cf0d8e7695a8e14f46
 
 /*global Ti define window document navigator instrumentation*/
 define(
@@ -4486,7 +4582,11 @@ define(
 });
 },
 "Ti/_/ready":function(){
+<<<<<<< HEAD
+/* /titanium/Ti/_/ready.js */
+=======
 /* E:\TitaniumWorkspace\RBS\build\mobileweb\titanium\Ti\_\ready.js */
+>>>>>>> 291e3d13c9a6ef14948c30cf0d8e7695a8e14f46
 
 /**
  * ready() functionality based on code from Dojo Toolkit.
@@ -4555,7 +4655,11 @@ define(function() {
 });
 },
 "Ti/_/event":function(){
+<<<<<<< HEAD
+/* /titanium/Ti/_/event.js */
+=======
 /* E:\TitaniumWorkspace\RBS\build\mobileweb\titanium\Ti\_\event.js */
+>>>>>>> 291e3d13c9a6ef14948c30cf0d8e7695a8e14f46
 
 define({
 	stop: function(e) {
@@ -4577,7 +4681,11 @@ define({
 });
 },
 "Ti/_/Gestures/DoubleTap":function(){
+<<<<<<< HEAD
+/* /titanium/Ti/_/Gestures/DoubleTap.js */
+=======
 /* E:\TitaniumWorkspace\RBS\build\mobileweb\titanium\Ti\_\Gestures\DoubleTap.js */
+>>>>>>> 291e3d13c9a6ef14948c30cf0d8e7695a8e14f46
 
 /*global define*/
 define(['Ti/_/declare', 'Ti/_/lang'], function (declare, lang) {
@@ -4644,7 +4752,11 @@ define(['Ti/_/declare', 'Ti/_/lang'], function (declare, lang) {
 });
 },
 "Ti/_/Gestures/Dragging":function(){
+<<<<<<< HEAD
+/* /titanium/Ti/_/Gestures/Dragging.js */
+=======
 /* E:\TitaniumWorkspace\RBS\build\mobileweb\titanium\Ti\_\Gestures\Dragging.js */
+>>>>>>> 291e3d13c9a6ef14948c30cf0d8e7695a8e14f46
 
 /*global define*/
 define(['Ti/_/declare', 'Ti/_/lang'], function (declare, lang) {
@@ -4734,7 +4846,11 @@ define(['Ti/_/declare', 'Ti/_/lang'], function (declare, lang) {
 });
 },
 "Ti/_/Gestures/LongPress":function(){
+<<<<<<< HEAD
+/* /titanium/Ti/_/Gestures/LongPress.js */
+=======
 /* E:\TitaniumWorkspace\RBS\build\mobileweb\titanium\Ti\_\Gestures\LongPress.js */
+>>>>>>> 291e3d13c9a6ef14948c30cf0d8e7695a8e14f46
 
 /*global define*/
 define(['Ti/_/declare', 'Ti/_/lang'], function (declare, lang) {
@@ -4793,7 +4909,11 @@ define(['Ti/_/declare', 'Ti/_/lang'], function (declare, lang) {
 });
 },
 "Ti/_/Gestures/Pinch":function(){
+<<<<<<< HEAD
+/* /titanium/Ti/_/Gestures/Pinch.js */
+=======
 /* E:\TitaniumWorkspace\RBS\build\mobileweb\titanium\Ti\_\Gestures\Pinch.js */
+>>>>>>> 291e3d13c9a6ef14948c30cf0d8e7695a8e14f46
 
 /*global define*/
 define(['Ti/_/declare', 'Ti/_/lang'], function (declare, lang) {
@@ -4898,7 +5018,11 @@ define(['Ti/_/declare', 'Ti/_/lang'], function (declare, lang) {
 });
 },
 "Ti/_/Gestures/SingleTap":function(){
+<<<<<<< HEAD
+/* /titanium/Ti/_/Gestures/SingleTap.js */
+=======
 /* E:\TitaniumWorkspace\RBS\build\mobileweb\titanium\Ti\_\Gestures\SingleTap.js */
+>>>>>>> 291e3d13c9a6ef14948c30cf0d8e7695a8e14f46
 
 /*global define*/
 define(['Ti/_/declare', 'Ti/_/lang'], function (declare, lang) {
@@ -4965,7 +5089,11 @@ define(['Ti/_/declare', 'Ti/_/lang'], function (declare, lang) {
 });
 },
 "Ti/_/Gestures/Swipe":function(){
+<<<<<<< HEAD
+/* /titanium/Ti/_/Gestures/Swipe.js */
+=======
 /* E:\TitaniumWorkspace\RBS\build\mobileweb\titanium\Ti\_\Gestures\Swipe.js */
+>>>>>>> 291e3d13c9a6ef14948c30cf0d8e7695a8e14f46
 
 /*global define*/
 define(['Ti/_/declare', 'Ti/_/lang'], function (declare, lang) {
@@ -5049,7 +5177,11 @@ define(['Ti/_/declare', 'Ti/_/lang'], function (declare, lang) {
 });
 },
 "Ti/_/Gestures/TouchCancel":function(){
+<<<<<<< HEAD
+/* /titanium/Ti/_/Gestures/TouchCancel.js */
+=======
 /* E:\TitaniumWorkspace\RBS\build\mobileweb\titanium\Ti\_\Gestures\TouchCancel.js */
+>>>>>>> 291e3d13c9a6ef14948c30cf0d8e7695a8e14f46
 
 /*global define*/
 define(['Ti/_/declare', 'Ti/_/lang'], function (declare, lang) {
@@ -5077,7 +5209,11 @@ define(['Ti/_/declare', 'Ti/_/lang'], function (declare, lang) {
 });
 },
 "Ti/_/Gestures/TouchEnd":function(){
+<<<<<<< HEAD
+/* /titanium/Ti/_/Gestures/TouchEnd.js */
+=======
 /* E:\TitaniumWorkspace\RBS\build\mobileweb\titanium\Ti\_\Gestures\TouchEnd.js */
+>>>>>>> 291e3d13c9a6ef14948c30cf0d8e7695a8e14f46
 
 /*global define*/
 define(['Ti/_/declare', 'Ti/_/lang'], function (declare, lang) {
@@ -5105,7 +5241,11 @@ define(['Ti/_/declare', 'Ti/_/lang'], function (declare, lang) {
 });
 },
 "Ti/_/Gestures/TouchMove":function(){
+<<<<<<< HEAD
+/* /titanium/Ti/_/Gestures/TouchMove.js */
+=======
 /* E:\TitaniumWorkspace\RBS\build\mobileweb\titanium\Ti\_\Gestures\TouchMove.js */
+>>>>>>> 291e3d13c9a6ef14948c30cf0d8e7695a8e14f46
 
 /*global define*/
 define(['Ti/_/declare', 'Ti/_/lang'], function (declare, lang) {
@@ -5133,7 +5273,11 @@ define(['Ti/_/declare', 'Ti/_/lang'], function (declare, lang) {
 });
 },
 "Ti/_/Gestures/TouchStart":function(){
+<<<<<<< HEAD
+/* /titanium/Ti/_/Gestures/TouchStart.js */
+=======
 /* E:\TitaniumWorkspace\RBS\build\mobileweb\titanium\Ti\_\Gestures\TouchStart.js */
+>>>>>>> 291e3d13c9a6ef14948c30cf0d8e7695a8e14f46
 
 /*global define*/
 define(['Ti/_/declare', 'Ti/_/lang'], function (declare, lang) {
@@ -5161,7 +5305,11 @@ define(['Ti/_/declare', 'Ti/_/lang'], function (declare, lang) {
 });
 },
 "Ti/_/Gestures/TwoFingerTap":function(){
+<<<<<<< HEAD
+/* /titanium/Ti/_/Gestures/TwoFingerTap.js */
+=======
 /* E:\TitaniumWorkspace\RBS\build\mobileweb\titanium\Ti\_\Gestures\TwoFingerTap.js */
+>>>>>>> 291e3d13c9a6ef14948c30cf0d8e7695a8e14f46
 
 /*global define*/
 define(['Ti/_/declare', 'Ti/_/lang'], function (declare, lang) {
@@ -5298,7 +5446,11 @@ define(['Ti/_/declare', 'Ti/_/lang'], function (declare, lang) {
 });
 },
 "Ti/Buffer":function(){
+<<<<<<< HEAD
+/* /titanium/Ti/Buffer.js */
+=======
 /* E:\TitaniumWorkspace\RBS\build\mobileweb\titanium\Ti\Buffer.js */
+>>>>>>> 291e3d13c9a6ef14948c30cf0d8e7695a8e14f46
 
 define(["Ti/_/declare", "Ti/_/Evented", "Ti/Blob", "Ti/Codec"], function(declare, Evented, Blob, Codec) {
 
@@ -5400,7 +5552,11 @@ define(["Ti/_/declare", "Ti/_/Evented", "Ti/Blob", "Ti/Codec"], function(declare
 });
 },
 "Ti/Codec":function(){
+<<<<<<< HEAD
+/* /titanium/Ti/Codec.js */
+=======
 /* E:\TitaniumWorkspace\RBS\build\mobileweb\titanium\Ti\Codec.js */
+>>>>>>> 291e3d13c9a6ef14948c30cf0d8e7695a8e14f46
 
 define(["Ti/_/declare", "Ti/_/lang", "Ti/_/Evented"], function(declare, lang, Evented) {
 
@@ -5472,7 +5628,11 @@ define(["Ti/_/declare", "Ti/_/lang", "Ti/_/Evented"], function(declare, lang, Ev
 });
 },
 "Ti/_/include":function(){
+<<<<<<< HEAD
+/* /titanium/Ti/_/include.js */
+=======
 /* E:\TitaniumWorkspace\RBS\build\mobileweb\titanium\Ti\_\include.js */
+>>>>>>> 291e3d13c9a6ef14948c30cf0d8e7695a8e14f46
 
 define(function() {
 	var cache = {},
@@ -5531,7 +5691,11 @@ define(function() {
 
 },
 "Ti/Accelerometer":function(){
+<<<<<<< HEAD
+/* /titanium/Ti/Accelerometer.js */
+=======
 /* E:\TitaniumWorkspace\RBS\build\mobileweb\titanium\Ti\Accelerometer.js */
+>>>>>>> 291e3d13c9a6ef14948c30cf0d8e7695a8e14f46
 
 define(["Ti/_/Evented", "Ti/_/lang"], function(Evented, lang) {
 	
@@ -5569,7 +5733,11 @@ define(["Ti/_/Evented", "Ti/_/lang"], function(Evented, lang) {
 });
 },
 "Ti/Analytics":function(){
+<<<<<<< HEAD
+/* /titanium/Ti/Analytics.js */
+=======
 /* E:\TitaniumWorkspace\RBS\build\mobileweb\titanium\Ti\Analytics.js */
+>>>>>>> 291e3d13c9a6ef14948c30cf0d8e7695a8e14f46
 
 define(["Ti/_/analytics", "Ti/_/Evented", "Ti/_/lang"], function(analytics, Evented, lang) {
 
@@ -5608,7 +5776,11 @@ define(["Ti/_/analytics", "Ti/_/Evented", "Ti/_/lang"], function(analytics, Even
 });
 },
 "Ti/BlobStream":function(){
+<<<<<<< HEAD
+/* /titanium/Ti/BlobStream.js */
+=======
 /* E:\TitaniumWorkspace\RBS\build\mobileweb\titanium\Ti\BlobStream.js */
+>>>>>>> 291e3d13c9a6ef14948c30cf0d8e7695a8e14f46
 
 define(["Ti/_/declare", "Ti/IOStream"], function(declare, IOStream) {
 
@@ -5617,7 +5789,11 @@ define(["Ti/_/declare", "Ti/IOStream"], function(declare, IOStream) {
 });
 },
 "Ti/IOStream":function(){
+<<<<<<< HEAD
+/* /titanium/Ti/IOStream.js */
+=======
 /* E:\TitaniumWorkspace\RBS\build\mobileweb\titanium\Ti\IOStream.js */
+>>>>>>> 291e3d13c9a6ef14948c30cf0d8e7695a8e14f46
 
 define(["Ti/_/declare", "Ti/_/Evented", "Ti/Buffer", "Ti/Filesystem"], function(declare, Evented, Buffer, Filesystem) {
 
@@ -5668,7 +5844,11 @@ define(["Ti/_/declare", "Ti/_/Evented", "Ti/Buffer", "Ti/Filesystem"], function(
 });
 },
 "Ti/BufferStream":function(){
+<<<<<<< HEAD
+/* /titanium/Ti/BufferStream.js */
+=======
 /* E:\TitaniumWorkspace\RBS\build\mobileweb\titanium\Ti\BufferStream.js */
+>>>>>>> 291e3d13c9a6ef14948c30cf0d8e7695a8e14f46
 
 define(["Ti/_/declare", "Ti/IOStream"], function(declare, IOStream) {
 
@@ -5677,7 +5857,11 @@ define(["Ti/_/declare", "Ti/IOStream"], function(declare, IOStream) {
 });
 },
 "Ti/Facebook":function(){
+<<<<<<< HEAD
+/* /titanium/Ti/Facebook.js */
+=======
 /* E:\TitaniumWorkspace\RBS\build\mobileweb\titanium\Ti\Facebook.js */
+>>>>>>> 291e3d13c9a6ef14948c30cf0d8e7695a8e14f46
 
 define(["Ti/_/Evented", "Ti/_/lang"], function(Evented, lang) {
 
@@ -5889,7 +6073,11 @@ define(["Ti/_/Evented", "Ti/_/lang"], function(Evented, lang) {
 });
 },
 "Ti/Geolocation":function(){
+<<<<<<< HEAD
+/* /titanium/Ti/Geolocation.js */
+=======
 /* E:\TitaniumWorkspace\RBS\build\mobileweb\titanium\Ti\Geolocation.js */
+>>>>>>> 291e3d13c9a6ef14948c30cf0d8e7695a8e14f46
 
 /*global
 define,
@@ -6119,7 +6307,11 @@ define(['Ti/_/Evented', 'Ti/_/lang', 'Ti/Network'], function(Evented, lang, Netw
 });
 },
 "Ti/Network":function(){
+<<<<<<< HEAD
+/* /titanium/Ti/Network.js */
+=======
 /* E:\TitaniumWorkspace\RBS\build\mobileweb\titanium\Ti\Network.js */
+>>>>>>> 291e3d13c9a6ef14948c30cf0d8e7695a8e14f46
 
 define(["Ti/_/Evented", "Ti/_/lang"], function(Evented, lang) {
 
@@ -6205,7 +6397,11 @@ define(["Ti/_/Evented", "Ti/_/lang"], function(Evented, lang) {
 });
 },
 "Ti/Gesture":function(){
+<<<<<<< HEAD
+/* /titanium/Ti/Gesture.js */
+=======
 /* E:\TitaniumWorkspace\RBS\build\mobileweb\titanium\Ti\Gesture.js */
+>>>>>>> 291e3d13c9a6ef14948c30cf0d8e7695a8e14f46
 
 define(["Ti/_/Evented", "Ti/_/lang", "Ti/UI", "Ti/_/ready", "Ti/_/event"], function(Evented, lang, UI, ready, event) {
 
@@ -6317,7 +6513,11 @@ define(["Ti/_/Evented", "Ti/_/lang", "Ti/UI", "Ti/_/ready", "Ti/_/event"], funct
 });
 },
 "Ti/Map":function(){
+<<<<<<< HEAD
+/* /titanium/Ti/Map.js */
+=======
 /* E:\TitaniumWorkspace\RBS\build\mobileweb\titanium\Ti\Map.js */
+>>>>>>> 291e3d13c9a6ef14948c30cf0d8e7695a8e14f46
 
 define(["Ti/_/Evented", "Ti/_/lang"], function(Evented, lang) {
 
@@ -6348,7 +6548,11 @@ define(["Ti/_/Evented", "Ti/_/lang"], function(Evented, lang) {
 });
 },
 "Ti/Media":function(){
+<<<<<<< HEAD
+/* /titanium/Ti/Media.js */
+=======
 /* E:\TitaniumWorkspace\RBS\build\mobileweb\titanium\Ti\Media.js */
+>>>>>>> 291e3d13c9a6ef14948c30cf0d8e7695a8e14f46
 
 define(["Ti/_/Evented", "Ti/_/lang"], function(Evented, lang) {
 
@@ -6410,7 +6614,11 @@ define(["Ti/_/Evented", "Ti/_/lang"], function(Evented, lang) {
 });
 },
 "Ti/Utils":function(){
+<<<<<<< HEAD
+/* /titanium/Ti/Utils.js */
+=======
 /* E:\TitaniumWorkspace\RBS\build\mobileweb\titanium\Ti\Utils.js */
+>>>>>>> 291e3d13c9a6ef14948c30cf0d8e7695a8e14f46
 
 /**
  * This file contains source code from the following:
@@ -6716,7 +6924,11 @@ define(["Ti/_/encoding", "Ti/_/Evented", "Ti/_/lang", "Ti/Blob"], function(encod
 });
 },
 "Ti/XML":function(){
+<<<<<<< HEAD
+/* /titanium/Ti/XML.js */
+=======
 /* E:\TitaniumWorkspace\RBS\build\mobileweb\titanium\Ti\XML.js */
+>>>>>>> 291e3d13c9a6ef14948c30cf0d8e7695a8e14f46
 
 define(["Ti/_/Evented", "Ti/_/lang"], function(Evented, lang) {
 	
@@ -6784,7 +6996,11 @@ define(["Ti/_/Evented", "Ti/_/lang"], function(Evented, lang) {
 });
 },
 "Ti/Yahoo":function(){
+<<<<<<< HEAD
+/* /titanium/Ti/Yahoo.js */
+=======
 /* E:\TitaniumWorkspace\RBS\build\mobileweb\titanium\Ti\Yahoo.js */
+>>>>>>> 291e3d13c9a6ef14948c30cf0d8e7695a8e14f46
 
 define(["Ti/_/Evented", "Ti/_/lang"],
 	function(Evented, lang) {
@@ -6816,7 +7032,11 @@ define(["Ti/_/Evented", "Ti/_/lang"],
 
 },
 "Ti/Facebook/LoginButton":function(){
+<<<<<<< HEAD
+/* /titanium/Ti/Facebook/LoginButton.js */
+=======
 /* E:\TitaniumWorkspace\RBS\build\mobileweb\titanium\Ti\Facebook\LoginButton.js */
+>>>>>>> 291e3d13c9a6ef14948c30cf0d8e7695a8e14f46
 
 define(["Ti/_/declare", "Ti/_/Evented", "Ti/UI/Button", "Ti/Facebook", "Ti/_/lang"], function(declare, Evented, Button, Facebook, lang) {
 	
@@ -6886,7 +7106,11 @@ define(["Ti/_/declare", "Ti/_/Evented", "Ti/UI/Button", "Ti/Facebook", "Ti/_/lan
 });
 },
 "Ti/UI/Button":function(){
+<<<<<<< HEAD
+/* /titanium/Ti/UI/Button.js */
+=======
 /* E:\TitaniumWorkspace\RBS\build\mobileweb\titanium\Ti\UI\Button.js */
+>>>>>>> 291e3d13c9a6ef14948c30cf0d8e7695a8e14f46
 
 define(['Ti/_/declare', 'Ti/_/UI/Widget', 'Ti/_/dom', 'Ti/_/css', 'Ti/_/style', 'Ti/_/lang', 'Ti/Locale', 'Ti/UI'],
 	function(declare, Widget, dom, css, style, lang, Locale, UI) {
@@ -7064,7 +7288,11 @@ define(['Ti/_/declare', 'Ti/_/UI/Widget', 'Ti/_/dom', 'Ti/_/css', 'Ti/_/style', 
 });
 },
 "Ti/_/UI/Widget":function(){
+<<<<<<< HEAD
+/* /titanium/Ti/_/UI/Widget.js */
+=======
 /* E:\TitaniumWorkspace\RBS\build\mobileweb\titanium\Ti\_\UI\Widget.js */
+>>>>>>> 291e3d13c9a6ef14948c30cf0d8e7695a8e14f46
 
 define(["Ti/_/declare", "Ti/UI/View"], function(declare, View) {
 
@@ -7074,7 +7302,11 @@ define(["Ti/_/declare", "Ti/UI/View"], function(declare, View) {
 });
 },
 "Ti/UI/View":function(){
+<<<<<<< HEAD
+/* /titanium/Ti/UI/View.js */
+=======
 /* E:\TitaniumWorkspace\RBS\build\mobileweb\titanium\Ti\UI\View.js */
+>>>>>>> 291e3d13c9a6ef14948c30cf0d8e7695a8e14f46
 
 define(['Ti/_/declare', 'Ti/_/UI/Element', 'Ti/_/string', 'Ti/_/Layouts', 'Ti/UI'],
 	function (declare, Element, string, Layouts, UI) {
@@ -7166,7 +7398,11 @@ define(['Ti/_/declare', 'Ti/_/UI/Element', 'Ti/_/string', 'Ti/_/Layouts', 'Ti/UI
 });
 },
 "Ti/_/UI/Element":function(){
+<<<<<<< HEAD
+/* /titanium/Ti/_/UI/Element.js */
+=======
 /* E:\TitaniumWorkspace\RBS\build\mobileweb\titanium\Ti\_\UI\Element.js */
+>>>>>>> 291e3d13c9a6ef14948c30cf0d8e7695a8e14f46
 
 /*global Ti define window*/
 define(
@@ -7984,7 +8220,11 @@ define(
 });
 },
 "Ti/_/css":function(){
+<<<<<<< HEAD
+/* /titanium/Ti/_/css.js */
+=======
 /* E:\TitaniumWorkspace\RBS\build\mobileweb\titanium\Ti\_\css.js */
+>>>>>>> 291e3d13c9a6ef14948c30cf0d8e7695a8e14f46
 
 define(["Ti/_", "Ti/_/string"], function(_, string) {
 	function processClass(node, cls, adding) {
@@ -8020,7 +8260,11 @@ define(["Ti/_", "Ti/_/string"], function(_, string) {
 });
 },
 "Ti/UI/Animation":function(){
+<<<<<<< HEAD
+/* /titanium/Ti/UI/Animation.js */
+=======
 /* E:\TitaniumWorkspace\RBS\build\mobileweb\titanium\Ti\UI\Animation.js */
+>>>>>>> 291e3d13c9a6ef14948c30cf0d8e7695a8e14f46
 
 /*global define, window, requestAnimationFrame*/
 define(['Ti/_/declare', 'Ti/_/Evented', 'Ti/_/style', 'Ti/UI'], function(declare, Evented, style, UI) {
@@ -8536,7 +8780,11 @@ define(['Ti/_/declare', 'Ti/_/Evented', 'Ti/_/style', 'Ti/UI'], function(declare
 
 },
 "Ti/_/Layouts":function(){
+<<<<<<< HEAD
+/* /titanium/Ti/_/Layouts.js */
+=======
 /* E:\TitaniumWorkspace\RBS\build\mobileweb\titanium\Ti\_\Layouts.js */
+>>>>>>> 291e3d13c9a6ef14948c30cf0d8e7695a8e14f46
 
 define(
 	["Ti/_/Layouts/Composite", "Ti/_/Layouts/Horizontal", "Ti/_/Layouts/Vertical", "Ti/_/Layouts/ConstrainingHorizontal", "Ti/_/Layouts/ConstrainingVertical"],
@@ -8555,7 +8803,11 @@ define(
 });
 },
 "Ti/_/Layouts/Composite":function(){
+<<<<<<< HEAD
+/* /titanium/Ti/_/Layouts/Composite.js */
+=======
 /* E:\TitaniumWorkspace\RBS\build\mobileweb\titanium\Ti\_\Layouts\Composite.js */
+>>>>>>> 291e3d13c9a6ef14948c30cf0d8e7695a8e14f46
 
 /*global define*/
 define(['Ti/_/Layouts/Base', 'Ti/_/declare', 'Ti/UI', 'Ti/_/lang'], function(Base, declare, UI, lang) {
@@ -9004,7 +9256,11 @@ define(['Ti/_/Layouts/Base', 'Ti/_/declare', 'Ti/UI', 'Ti/_/lang'], function(Bas
 
 },
 "Ti/_/Layouts/Base":function(){
+<<<<<<< HEAD
+/* /titanium/Ti/_/Layouts/Base.js */
+=======
 /* E:\TitaniumWorkspace\RBS\build\mobileweb\titanium\Ti\_\Layouts\Base.js */
+>>>>>>> 291e3d13c9a6ef14948c30cf0d8e7695a8e14f46
 
 /*global define*/
 define(['Ti/_/css', 'Ti/_/declare', 'Ti/_/style', 'Ti/_/lang', 'Ti/API', 'Ti/UI', 'Ti/_', 'Ti/_/dom'],
@@ -9139,7 +9395,11 @@ define(['Ti/_/css', 'Ti/_/declare', 'Ti/_/style', 'Ti/_/lang', 'Ti/API', 'Ti/UI'
 });
 },
 "Ti/_/Layouts/Horizontal":function(){
+<<<<<<< HEAD
+/* /titanium/Ti/_/Layouts/Horizontal.js */
+=======
 /* E:\TitaniumWorkspace\RBS\build\mobileweb\titanium\Ti\_\Layouts\Horizontal.js */
+>>>>>>> 291e3d13c9a6ef14948c30cf0d8e7695a8e14f46
 
 /*global define*/
 define(['Ti/_/Layouts/Base', 'Ti/_/declare', 'Ti/API', 'Ti/UI', 'Ti/_/lang'],
@@ -9528,7 +9788,11 @@ define(['Ti/_/Layouts/Base', 'Ti/_/declare', 'Ti/API', 'Ti/UI', 'Ti/_/lang'],
 
 },
 "Ti/_/Layouts/Vertical":function(){
+<<<<<<< HEAD
+/* /titanium/Ti/_/Layouts/Vertical.js */
+=======
 /* E:\TitaniumWorkspace\RBS\build\mobileweb\titanium\Ti\_\Layouts\Vertical.js */
+>>>>>>> 291e3d13c9a6ef14948c30cf0d8e7695a8e14f46
 
 /*global define*/
 define(['Ti/_/Layouts/Base', 'Ti/_/declare', 'Ti/UI', 'Ti/_/lang'], function(Base, declare, UI, lang) {
@@ -9898,7 +10162,11 @@ define(['Ti/_/Layouts/Base', 'Ti/_/declare', 'Ti/UI', 'Ti/_/lang'], function(Bas
 
 },
 "Ti/_/Layouts/ConstrainingHorizontal":function(){
+<<<<<<< HEAD
+/* /titanium/Ti/_/Layouts/ConstrainingHorizontal.js */
+=======
 /* E:\TitaniumWorkspace\RBS\build\mobileweb\titanium\Ti\_\Layouts\ConstrainingHorizontal.js */
+>>>>>>> 291e3d13c9a6ef14948c30cf0d8e7695a8e14f46
 
 /*global define*/
 define(['Ti/_/Layouts/Base', 'Ti/_/declare', 'Ti/UI', 'Ti/_/lang'], function(Base, declare, UI, lang) {
@@ -10332,7 +10600,11 @@ define(['Ti/_/Layouts/Base', 'Ti/_/declare', 'Ti/UI', 'Ti/_/lang'], function(Bas
 
 },
 "Ti/_/Layouts/ConstrainingVertical":function(){
+<<<<<<< HEAD
+/* /titanium/Ti/_/Layouts/ConstrainingVertical.js */
+=======
 /* E:\TitaniumWorkspace\RBS\build\mobileweb\titanium\Ti\_\Layouts\ConstrainingVertical.js */
+>>>>>>> 291e3d13c9a6ef14948c30cf0d8e7695a8e14f46
 
 /*global define*/
 define(['Ti/_/Layouts/Base', 'Ti/_/declare', 'Ti/UI', 'Ti/_/lang'], function(Base, declare, UI, lang) {
@@ -10767,7 +11039,11 @@ define(['Ti/_/Layouts/Base', 'Ti/_/declare', 'Ti/UI', 'Ti/_/lang'], function(Bas
 
 },
 "Ti/Filesystem/FileStream":function(){
+<<<<<<< HEAD
+/* /titanium/Ti/Filesystem/FileStream.js */
+=======
 /* E:\TitaniumWorkspace\RBS\build\mobileweb\titanium\Ti\Filesystem\FileStream.js */
+>>>>>>> 291e3d13c9a6ef14948c30cf0d8e7695a8e14f46
 
 define(["Ti/_/declare", "Ti/IOStream"], function(declare, IOStream) {
 
@@ -10776,7 +11052,11 @@ define(["Ti/_/declare", "Ti/IOStream"], function(declare, IOStream) {
 });
 },
 "Ti/Map/Annotation":function(){
+<<<<<<< HEAD
+/* /titanium/Ti/Map/Annotation.js */
+=======
 /* E:\TitaniumWorkspace\RBS\build\mobileweb\titanium\Ti\Map\Annotation.js */
+>>>>>>> 291e3d13c9a6ef14948c30cf0d8e7695a8e14f46
 
 define(["Ti/_/declare", "Ti/_/Evented", "Ti/Locale"], function(declare, Evented, Locale) {
 
@@ -10832,7 +11112,11 @@ define(["Ti/_/declare", "Ti/_/Evented", "Ti/Locale"], function(declare, Evented,
 
 },
 "Ti/Map/View":function(){
+<<<<<<< HEAD
+/* /titanium/Ti/Map/View.js */
+=======
 /* E:\TitaniumWorkspace\RBS\build\mobileweb\titanium\Ti\Map\View.js */
+>>>>>>> 291e3d13c9a6ef14948c30cf0d8e7695a8e14f46
 
 define(["Ti/_/declare", "Ti/_/Map/Google", "Ti/App/Properties"], function(declare, Google, Properties) {
 
@@ -10844,7 +11128,11 @@ define(["Ti/_/declare", "Ti/_/Map/Google", "Ti/App/Properties"], function(declar
 
 },
 "Ti/_/Map/Google":function(){
+<<<<<<< HEAD
+/* /titanium/Ti/_/Map/Google.js */
+=======
 /* E:\TitaniumWorkspace\RBS\build\mobileweb\titanium\Ti\_\Map\Google.js */
+>>>>>>> 291e3d13c9a6ef14948c30cf0d8e7695a8e14f46
 
 /*global define Ti*/
 define(['Ti/_/declare', 'Ti/_/dom', 'Ti/_/event', 'Ti/_/lang', 'Ti/App/Properties', 'Ti/Geolocation', 'Ti/Map', 'Ti/UI/View', 'Ti/Utils'],
@@ -11297,7 +11585,11 @@ define(['Ti/_/declare', 'Ti/_/dom', 'Ti/_/event', 'Ti/_/lang', 'Ti/App/Propertie
 });
 },
 "Ti/Media/AudioPlayer":function(){
+<<<<<<< HEAD
+/* /titanium/Ti/Media/AudioPlayer.js */
+=======
 /* E:\TitaniumWorkspace\RBS\build\mobileweb\titanium\Ti\Media\AudioPlayer.js */
+>>>>>>> 291e3d13c9a6ef14948c30cf0d8e7695a8e14f46
 
 define(["Ti/_/declare", "Ti/_/Evented"], function(declare, Evented) {
 	
@@ -11307,7 +11599,11 @@ define(["Ti/_/declare", "Ti/_/Evented"], function(declare, Evented) {
 });
 },
 "Ti/Media/Sound":function(){
+<<<<<<< HEAD
+/* /titanium/Ti/Media/Sound.js */
+=======
 /* E:\TitaniumWorkspace\RBS\build\mobileweb\titanium\Ti\Media\Sound.js */
+>>>>>>> 291e3d13c9a6ef14948c30cf0d8e7695a8e14f46
 
 define(["Ti/_/declare", "Ti/_/Evented"], function(declare, Evented) {
 	
@@ -11317,7 +11613,11 @@ define(["Ti/_/declare", "Ti/_/Evented"], function(declare, Evented) {
 });
 },
 "Ti/Media/VideoPlayer":function(){
+<<<<<<< HEAD
+/* /titanium/Ti/Media/VideoPlayer.js */
+=======
 /* E:\TitaniumWorkspace\RBS\build\mobileweb\titanium\Ti\Media\VideoPlayer.js */
+>>>>>>> 291e3d13c9a6ef14948c30cf0d8e7695a8e14f46
 
 define(["Ti/_/declare", "Ti/_/dom", "Ti/_/event", "Ti/_/lang", "Ti/Media", "Ti/UI/View"],
 	function(declare, dom, event, lang, Media, View) {
@@ -11624,7 +11924,11 @@ define(["Ti/_/declare", "Ti/_/dom", "Ti/_/event", "Ti/_/lang", "Ti/Media", "Ti/U
 
 },
 "Ti/Network/HTTPClient":function(){
+<<<<<<< HEAD
+/* /titanium/Ti/Network/HTTPClient.js */
+=======
 /* E:\TitaniumWorkspace\RBS\build\mobileweb\titanium\Ti\Network\HTTPClient.js */
+>>>>>>> 291e3d13c9a6ef14948c30cf0d8e7695a8e14f46
 
 define(["Ti/_", "Ti/_/declare", "Ti/_/has", "Ti/_/lang", "Ti/_/Evented", "Ti/Filesystem", "Ti/Network", "Ti/Blob", "Ti/_/event", "Ti/App"],
 	function(_, declare, has, lang, Evented, Filesystem, Network, Blob, event, App) {
@@ -11824,7 +12128,11 @@ define(["Ti/_", "Ti/_/declare", "Ti/_/has", "Ti/_/lang", "Ti/_/Evented", "Ti/Fil
 
 },
 "Ti/Platform/DisplayCaps":function(){
+<<<<<<< HEAD
+/* /titanium/Ti/Platform/DisplayCaps.js */
+=======
 /* E:\TitaniumWorkspace\RBS\build\mobileweb\titanium\Ti\Platform\DisplayCaps.js */
+>>>>>>> 291e3d13c9a6ef14948c30cf0d8e7695a8e14f46
 
 define(["Ti/_", "Ti/_/Evented", "Ti/_/lang"], function(_, Evented, lang) {
 
@@ -11855,7 +12163,11 @@ define(["Ti/_", "Ti/_/Evented", "Ti/_/lang"], function(_, Evented, lang) {
 });
 },
 "Ti/UI/2DMatrix":function(){
+<<<<<<< HEAD
+/* /titanium/Ti/UI/2DMatrix.js */
+=======
 /* E:\TitaniumWorkspace\RBS\build\mobileweb\titanium\Ti\UI\2DMatrix.js */
+>>>>>>> 291e3d13c9a6ef14948c30cf0d8e7695a8e14f46
 
 define(["Ti/_/declare", "Ti/_/Evented", "Ti/_/lang", "Ti/Platform"],
 	function(declare, Evented, lang, Platform) {
@@ -11956,7 +12268,11 @@ define(["Ti/_/declare", "Ti/_/Evented", "Ti/_/lang", "Ti/Platform"],
 
 },
 "Ti/UI/ActivityIndicator":function(){
+<<<<<<< HEAD
+/* /titanium/Ti/UI/ActivityIndicator.js */
+=======
 /* E:\TitaniumWorkspace\RBS\build\mobileweb\titanium\Ti\UI\ActivityIndicator.js */
+>>>>>>> 291e3d13c9a6ef14948c30cf0d8e7695a8e14f46
 
 define(['Ti/_/declare', 'Ti/_/lang', 'Ti/_/UI/Widget', 'Ti/_/dom', 'Ti/_/style', 'Ti/Locale', 'Ti/UI', 'Ti/UI/ActivityIndicatorStyle'],
 	function(declare, lang, Widget, dom, style, Locale, UI, ActivityIndicatorStyle) {
@@ -12110,7 +12426,11 @@ define(['Ti/_/declare', 'Ti/_/lang', 'Ti/_/UI/Widget', 'Ti/_/dom', 'Ti/_/style',
 });
 },
 "Ti/UI/ActivityIndicatorStyle":function(){
+<<<<<<< HEAD
+/* /titanium/Ti/UI/ActivityIndicatorStyle.js */
+=======
 /* E:\TitaniumWorkspace\RBS\build\mobileweb\titanium\Ti\UI\ActivityIndicatorStyle.js */
+>>>>>>> 291e3d13c9a6ef14948c30cf0d8e7695a8e14f46
 
 define(["Ti/_/lang"], function(lang) {
 
@@ -12126,7 +12446,11 @@ define(["Ti/_/lang"], function(lang) {
 });
 },
 "Ti/UI/AlertDialog":function(){
+<<<<<<< HEAD
+/* /titanium/Ti/UI/AlertDialog.js */
+=======
 /* E:\TitaniumWorkspace\RBS\build\mobileweb\titanium\Ti\UI\AlertDialog.js */
+>>>>>>> 291e3d13c9a6ef14948c30cf0d8e7695a8e14f46
 
 /*global define*/
 define(['Ti/_/css', 'Ti/_/declare', 'Ti/_/lang', 'Ti/_/Evented', 'Ti/Locale', 'Ti/UI', 'Ti/_/style'],
@@ -12244,7 +12568,11 @@ define(['Ti/_/css', 'Ti/_/declare', 'Ti/_/lang', 'Ti/_/Evented', 'Ti/Locale', 'T
 
 },
 "Ti/UI/Clipboard":function(){
+<<<<<<< HEAD
+/* /titanium/Ti/UI/Clipboard.js */
+=======
 /* E:\TitaniumWorkspace\RBS\build\mobileweb\titanium\Ti\UI\Clipboard.js */
+>>>>>>> 291e3d13c9a6ef14948c30cf0d8e7695a8e14f46
 
 define(["Ti/_/Evented", "Ti/_/lang"], function(Evented, lang) {
 
@@ -12317,7 +12645,11 @@ define(["Ti/_/Evented", "Ti/_/lang"], function(Evented, lang) {
 });
 },
 "Ti/UI/EmailDialog":function(){
+<<<<<<< HEAD
+/* /titanium/Ti/UI/EmailDialog.js */
+=======
 /* E:\TitaniumWorkspace\RBS\build\mobileweb\titanium\Ti\UI\EmailDialog.js */
+>>>>>>> 291e3d13c9a6ef14948c30cf0d8e7695a8e14f46
 
 define(["Ti/_", "Ti/_/declare", "Ti/_/Evented", "Ti/_/lang"],
 	function(_, declare, Evented, lang) {
@@ -12380,7 +12712,11 @@ define(["Ti/_", "Ti/_/declare", "Ti/_/Evented", "Ti/_/lang"],
 
 },
 "Ti/UI/ImageView":function(){
+<<<<<<< HEAD
+/* /titanium/Ti/UI/ImageView.js */
+=======
 /* E:\TitaniumWorkspace\RBS\build\mobileweb\titanium\Ti\UI\ImageView.js */
+>>>>>>> 291e3d13c9a6ef14948c30cf0d8e7695a8e14f46
 
 define(["Ti/_/declare", "Ti/_/event", "Ti/_/lang", "Ti/_/style", "Ti/_/UI/Widget", "Ti/UI", "Ti/Filesystem"], 
 	function(declare, event, lang, style, Widget, UI, Filesystem) {
@@ -12649,7 +12985,11 @@ define(["Ti/_/declare", "Ti/_/event", "Ti/_/lang", "Ti/_/style", "Ti/_/UI/Widget
 });
 },
 "Ti/UI/Label":function(){
+<<<<<<< HEAD
+/* /titanium/Ti/UI/Label.js */
+=======
 /* E:\TitaniumWorkspace\RBS\build\mobileweb\titanium\Ti\UI\Label.js */
+>>>>>>> 291e3d13c9a6ef14948c30cf0d8e7695a8e14f46
 
 define(['Ti/_/declare', 'Ti/_/UI/FontWidget', 'Ti/_/dom', 'Ti/_/css', 'Ti/_/style', 'Ti/_/lang', 'Ti/Locale', 'Ti/UI'],
 	function(declare, FontWidget, dom, css, style, lang, Locale, UI) {
@@ -12809,7 +13149,11 @@ define(['Ti/_/declare', 'Ti/_/UI/FontWidget', 'Ti/_/dom', 'Ti/_/css', 'Ti/_/styl
 });
 },
 "Ti/_/UI/FontWidget":function(){
+<<<<<<< HEAD
+/* /titanium/Ti/_/UI/FontWidget.js */
+=======
 /* E:\TitaniumWorkspace\RBS\build\mobileweb\titanium\Ti\_\UI\FontWidget.js */
+>>>>>>> 291e3d13c9a6ef14948c30cf0d8e7695a8e14f46
 
 define(["Ti/_/declare", "Ti/_/dom", "Ti/_/lang", "Ti/_/ready", "Ti/_/style", "Ti/_/UI/Widget"],
 	function(declare, dom, lang, ready, style, Widget) {
@@ -12903,7 +13247,11 @@ define(["Ti/_/declare", "Ti/_/dom", "Ti/_/lang", "Ti/_/ready", "Ti/_/style", "Ti
 });
 },
 "Ti/UI/MobileWeb":function(){
+<<<<<<< HEAD
+/* /titanium/Ti/UI/MobileWeb.js */
+=======
 /* E:\TitaniumWorkspace\RBS\build\mobileweb\titanium\Ti\UI\MobileWeb.js */
+>>>>>>> 291e3d13c9a6ef14948c30cf0d8e7695a8e14f46
 
 define(["Ti/_/Evented", "Ti/_/lang", "Ti/UI/MobileWeb/NavigationGroup"],
 	function(Evented, lang, NavigationGroup) {
@@ -12917,7 +13265,11 @@ define(["Ti/_/Evented", "Ti/_/lang", "Ti/UI/MobileWeb/NavigationGroup"],
 });
 },
 "Ti/UI/MobileWeb/NavigationGroup":function(){
+<<<<<<< HEAD
+/* /titanium/Ti/UI/MobileWeb/NavigationGroup.js */
+=======
 /* E:\TitaniumWorkspace\RBS\build\mobileweb\titanium\Ti\UI\MobileWeb\NavigationGroup.js */
+>>>>>>> 291e3d13c9a6ef14948c30cf0d8e7695a8e14f46
 
 /*global define*/
 define(['Ti/_/css', 'Ti/_/declare', 'Ti/UI/View', 'Ti/UI', 'Ti/_/lang'],
@@ -13147,7 +13499,11 @@ define(['Ti/_/css', 'Ti/_/declare', 'Ti/UI/View', 'Ti/UI', 'Ti/_/lang'],
 });
 },
 "Ti/UI/OptionDialog":function(){
+<<<<<<< HEAD
+/* /titanium/Ti/UI/OptionDialog.js */
+=======
 /* E:\TitaniumWorkspace\RBS\build\mobileweb\titanium\Ti\UI\OptionDialog.js */
+>>>>>>> 291e3d13c9a6ef14948c30cf0d8e7695a8e14f46
 
 define(["Ti/_/declare", "Ti/_/lang", "Ti/_/Evented", "Ti/Locale", "Ti/UI", "Ti/_/css"],
 	function(declare, lang, Evented, Locale, UI, css) {
@@ -13254,7 +13610,11 @@ define(["Ti/_/declare", "Ti/_/lang", "Ti/_/Evented", "Ti/Locale", "Ti/UI", "Ti/_
 
 },
 "Ti/UI/Picker":function(){
+<<<<<<< HEAD
+/* /titanium/Ti/UI/Picker.js */
+=======
 /* E:\TitaniumWorkspace\RBS\build\mobileweb\titanium\Ti\UI\Picker.js */
+>>>>>>> 291e3d13c9a6ef14948c30cf0d8e7695a8e14f46
 
 define(["Ti/_/declare", "Ti/_/event", 'Ti/_/has', "Ti/UI/View", "Ti/_/UI/Widget", "Ti/UI", "Ti/_/lang", "Ti/_/dom", "Ti/_/ready"],
 	function(declare, event, has, View, Widget, UI, lang, dom, ready) {
@@ -13537,7 +13897,11 @@ define(["Ti/_/declare", "Ti/_/event", 'Ti/_/has', "Ti/UI/View", "Ti/_/UI/Widget"
 });
 },
 "Ti/UI/PickerColumn":function(){
+<<<<<<< HEAD
+/* /titanium/Ti/UI/PickerColumn.js */
+=======
 /* E:\TitaniumWorkspace\RBS\build\mobileweb\titanium\Ti\UI\PickerColumn.js */
+>>>>>>> 291e3d13c9a6ef14948c30cf0d8e7695a8e14f46
 
 define(["Ti/_/declare", "Ti/_/UI/FontWidget", "Ti/_/dom", "Ti/UI", 'Ti/_/has', "Ti/_/style", "Ti/_/lang"],
 	function(declare, FontWidget, dom, UI, has, style, lang) {
@@ -13846,7 +14210,11 @@ define(["Ti/_/declare", "Ti/_/UI/FontWidget", "Ti/_/dom", "Ti/UI", 'Ti/_/has', "
 });
 },
 "Ti/UI/PickerRow":function(){
+<<<<<<< HEAD
+/* /titanium/Ti/UI/PickerRow.js */
+=======
 /* E:\TitaniumWorkspace\RBS\build\mobileweb\titanium\Ti\UI\PickerRow.js */
+>>>>>>> 291e3d13c9a6ef14948c30cf0d8e7695a8e14f46
 
 define(["Ti/_/declare", "Ti/_/UI/FontWidget", "Ti/UI"],
 	function(declare, FontWidget, UI) {
@@ -13874,7 +14242,11 @@ define(["Ti/_/declare", "Ti/_/UI/FontWidget", "Ti/UI"],
 });
 },
 "Ti/UI/ProgressBar":function(){
+<<<<<<< HEAD
+/* /titanium/Ti/UI/ProgressBar.js */
+=======
 /* E:\TitaniumWorkspace\RBS\build\mobileweb\titanium\Ti\UI\ProgressBar.js */
+>>>>>>> 291e3d13c9a6ef14948c30cf0d8e7695a8e14f46
 
 define(["Ti/_/declare", "Ti/_/UI/Widget", "Ti/_/UI/FontWidget", "Ti/_/lang", "Ti/_/dom", "Ti/_/style", "Ti/UI"], 
 	function(declare, Widget, FontWidget, lang, dom, style, UI) {
@@ -13995,7 +14367,11 @@ define(["Ti/_/declare", "Ti/_/UI/Widget", "Ti/_/UI/FontWidget", "Ti/_/lang", "Ti
 });
 },
 "Ti/UI/ScrollView":function(){
+<<<<<<< HEAD
+/* /titanium/Ti/UI/ScrollView.js */
+=======
 /* E:\TitaniumWorkspace\RBS\build\mobileweb\titanium\Ti\UI\ScrollView.js */
+>>>>>>> 291e3d13c9a6ef14948c30cf0d8e7695a8e14f46
 
 /*global define*/
 define(['Ti/_/declare', 'Ti/_/UI/KineticScrollView', 'Ti/_/style', 'Ti/_/lang', 'Ti/UI'],
@@ -14184,7 +14560,11 @@ define(['Ti/_/declare', 'Ti/_/UI/KineticScrollView', 'Ti/_/style', 'Ti/_/lang', 
 });
 },
 "Ti/_/UI/KineticScrollView":function(){
+<<<<<<< HEAD
+/* /titanium/Ti/_/UI/KineticScrollView.js */
+=======
 /* E:\TitaniumWorkspace\RBS\build\mobileweb\titanium\Ti\_\UI\KineticScrollView.js */
+>>>>>>> 291e3d13c9a6ef14948c30cf0d8e7695a8e14f46
 
 define(["Ti/_/browser", "Ti/_/declare", "Ti/UI/View", "Ti/_/lang", "Ti/_/dom", "Ti/_/style", "Ti/UI", "Ti/_/event"],
 	function(browser, declare, View, lang, dom, style, UI, event) {
@@ -14590,7 +14970,11 @@ define(["Ti/_/browser", "Ti/_/declare", "Ti/UI/View", "Ti/_/lang", "Ti/_/dom", "
 });
 },
 "Ti/UI/ScrollableView":function(){
+<<<<<<< HEAD
+/* /titanium/Ti/UI/ScrollableView.js */
+=======
 /* E:\TitaniumWorkspace\RBS\build\mobileweb\titanium\Ti\UI\ScrollableView.js */
+>>>>>>> 291e3d13c9a6ef14948c30cf0d8e7695a8e14f46
 
 /*global define window*/
 define(['Ti/_/declare', 'Ti/UI/View', 'Ti/_/dom', 'Ti/_/has', 'Ti/_/style', 'Ti/UI', 'Ti/_/browser'],
@@ -14979,7 +15363,11 @@ define(['Ti/_/declare', 'Ti/UI/View', 'Ti/_/dom', 'Ti/_/has', 'Ti/_/style', 'Ti/
 });
 },
 "Ti/UI/Slider":function(){
+<<<<<<< HEAD
+/* /titanium/Ti/UI/Slider.js */
+=======
 /* E:\TitaniumWorkspace\RBS\build\mobileweb\titanium\Ti\UI\Slider.js */
+>>>>>>> 291e3d13c9a6ef14948c30cf0d8e7695a8e14f46
 
 /*global define*/
 define(['Ti/_/declare', 'Ti/_/UI/Widget', 'Ti/_/dom', 'Ti/_/css', 'Ti/_/style', 'Ti/_/lang', 'Ti/UI'],
@@ -15122,7 +15510,11 @@ define(['Ti/_/declare', 'Ti/_/UI/Widget', 'Ti/_/dom', 'Ti/_/css', 'Ti/_/style', 
 
 },
 "Ti/UI/Switch":function(){
+<<<<<<< HEAD
+/* /titanium/Ti/UI/Switch.js */
+=======
 /* E:\TitaniumWorkspace\RBS\build\mobileweb\titanium\Ti\UI\Switch.js */
+>>>>>>> 291e3d13c9a6ef14948c30cf0d8e7695a8e14f46
 
 define(["Ti/_/declare", "Ti/_/UI/FontWidget", "Ti/_/css", "Ti/_/style", "Ti/UI"],
 	function(declare, FontWidget, css, style, UI) {
@@ -15299,7 +15691,11 @@ define(["Ti/_/declare", "Ti/_/UI/FontWidget", "Ti/_/css", "Ti/_/style", "Ti/UI"]
 
 },
 "Ti/UI/Tab":function(){
+<<<<<<< HEAD
+/* /titanium/Ti/UI/Tab.js */
+=======
 /* E:\TitaniumWorkspace\RBS\build\mobileweb\titanium\Ti\UI\Tab.js */
+>>>>>>> 291e3d13c9a6ef14948c30cf0d8e7695a8e14f46
 
 define(["Ti/_/declare", "Ti/UI/View", "Ti/_/dom", "Ti/Locale", "Ti/UI", "Ti/UI/MobileWeb", "Ti/UI/Label", "Ti/UI/ImageView"],
 	function(declare, View, dom, Locale, UI, MobileWeb) {
@@ -15430,7 +15826,11 @@ define(["Ti/_/declare", "Ti/UI/View", "Ti/_/dom", "Ti/Locale", "Ti/UI", "Ti/UI/M
 
 },
 "Ti/UI/TabGroup":function(){
+<<<<<<< HEAD
+/* /titanium/Ti/UI/TabGroup.js */
+=======
 /* E:\TitaniumWorkspace\RBS\build\mobileweb\titanium\Ti\UI\TabGroup.js */
+>>>>>>> 291e3d13c9a6ef14948c30cf0d8e7695a8e14f46
 
 define(["Ti/_/declare", "Ti/_/UI/SuperView", "Ti/UI/View", "Ti/UI", "Ti/_/lang"], 
 	function(declare, SuperView, View, UI, lang) {
@@ -15781,7 +16181,11 @@ define(["Ti/_/declare", "Ti/_/UI/SuperView", "Ti/UI/View", "Ti/UI", "Ti/_/lang"]
 
 },
 "Ti/_/UI/SuperView":function(){
+<<<<<<< HEAD
+/* /titanium/Ti/_/UI/SuperView.js */
+=======
 /* E:\TitaniumWorkspace\RBS\build\mobileweb\titanium\Ti\_\UI\SuperView.js */
+>>>>>>> 291e3d13c9a6ef14948c30cf0d8e7695a8e14f46
 
 /*global define*/
 define(['Ti/_/declare', 'Ti/UI', 'Ti/UI/View'], function(declare, UI, View) {
@@ -15848,7 +16252,11 @@ define(['Ti/_/declare', 'Ti/UI', 'Ti/UI/View'], function(declare, UI, View) {
 });
 },
 "Ti/UI/TableView":function(){
+<<<<<<< HEAD
+/* /titanium/Ti/UI/TableView.js */
+=======
 /* E:\TitaniumWorkspace\RBS\build\mobileweb\titanium\Ti\UI\TableView.js */
+>>>>>>> 291e3d13c9a6ef14948c30cf0d8e7695a8e14f46
 
 /*global define*/
 define(['Ti/_/declare', 'Ti/_/UI/KineticScrollView', 'Ti/_/style', 'Ti/_/lang', 'Ti/UI/MobileWeb/TableViewSeparatorStyle', 'Ti/UI'],
@@ -16299,7 +16707,11 @@ define(['Ti/_/declare', 'Ti/_/UI/KineticScrollView', 'Ti/_/style', 'Ti/_/lang', 
 });
 },
 "Ti/UI/MobileWeb/TableViewSeparatorStyle":function(){
+<<<<<<< HEAD
+/* /titanium/Ti/UI/MobileWeb/TableViewSeparatorStyle.js */
+=======
 /* E:\TitaniumWorkspace\RBS\build\mobileweb\titanium\Ti\UI\MobileWeb\TableViewSeparatorStyle.js */
+>>>>>>> 291e3d13c9a6ef14948c30cf0d8e7695a8e14f46
 
 define(["Ti/_/lang"], function(lang) {
 
@@ -16313,7 +16725,11 @@ define(["Ti/_/lang"], function(lang) {
 });
 },
 "Ti/UI/TableViewRow":function(){
+<<<<<<< HEAD
+/* /titanium/Ti/UI/TableViewRow.js */
+=======
 /* E:\TitaniumWorkspace\RBS\build\mobileweb\titanium\Ti\UI\TableViewRow.js */
+>>>>>>> 291e3d13c9a6ef14948c30cf0d8e7695a8e14f46
 
 /*global define*/
 define(['Ti/_/declare', 'Ti/_/lang', 'Ti/UI/View', 'Ti/_/dom', 'Ti/_/css', 'Ti/_/style', 'Ti/UI', 'Ti/_/Layouts/ConstrainingHorizontal'],
@@ -16488,7 +16904,11 @@ define(['Ti/_/declare', 'Ti/_/lang', 'Ti/UI/View', 'Ti/_/dom', 'Ti/_/css', 'Ti/_
 });
 },
 "Ti/UI/TableViewSection":function(){
+<<<<<<< HEAD
+/* /titanium/Ti/UI/TableViewSection.js */
+=======
 /* E:\TitaniumWorkspace\RBS\build\mobileweb\titanium\Ti\UI\TableViewSection.js */
+>>>>>>> 291e3d13c9a6ef14948c30cf0d8e7695a8e14f46
 
 /*global define*/
 define(['Ti/_/declare', 'Ti/_/lang', 'Ti/_/UI/Widget', 'Ti/_/style','Ti/UI/MobileWeb/TableViewSeparatorStyle', 'Ti/UI'],
@@ -16698,7 +17118,11 @@ define(['Ti/_/declare', 'Ti/_/lang', 'Ti/_/UI/Widget', 'Ti/_/style','Ti/UI/Mobil
 });
 },
 "Ti/UI/TextArea":function(){
+<<<<<<< HEAD
+/* /titanium/Ti/UI/TextArea.js */
+=======
 /* E:\TitaniumWorkspace\RBS\build\mobileweb\titanium\Ti\UI\TextArea.js */
+>>>>>>> 291e3d13c9a6ef14948c30cf0d8e7695a8e14f46
 
 define(["Ti/_/declare", "Ti/_/UI/TextBox", "Ti/_/dom", "Ti/_/css", "Ti/_/style", "Ti/UI"],
 	function(declare, TextBox, dom, css, style, UI) {
@@ -16736,7 +17160,11 @@ define(["Ti/_/declare", "Ti/_/UI/TextBox", "Ti/_/dom", "Ti/_/css", "Ti/_/style",
 
 },
 "Ti/_/UI/TextBox":function(){
+<<<<<<< HEAD
+/* /titanium/Ti/_/UI/TextBox.js */
+=======
 /* E:\TitaniumWorkspace\RBS\build\mobileweb\titanium\Ti\_\UI\TextBox.js */
+>>>>>>> 291e3d13c9a6ef14948c30cf0d8e7695a8e14f46
 
 define(
 	["Ti/_/declare", "Ti/_/dom", "Ti/_/event", "Ti/_/style", "Ti/_/lang", "Ti/_/UI/FontWidget", "Ti/UI"],
@@ -16889,7 +17317,11 @@ define(
 });
 },
 "Ti/UI/TextField":function(){
+<<<<<<< HEAD
+/* /titanium/Ti/UI/TextField.js */
+=======
 /* E:\TitaniumWorkspace\RBS\build\mobileweb\titanium\Ti\UI\TextField.js */
+>>>>>>> 291e3d13c9a6ef14948c30cf0d8e7695a8e14f46
 
 define(["Ti/_/declare", "Ti/_/UI/TextBox", "Ti/_/css", "Ti/_/dom", "Ti/_/lang", "Ti/_/style", "Ti/UI"],
 	function(declare, TextBox, css, dom, lang, style, UI) {
@@ -17021,7 +17453,11 @@ define(["Ti/_/declare", "Ti/_/UI/TextBox", "Ti/_/css", "Ti/_/dom", "Ti/_/lang", 
 
 },
 "Ti/UI/WebView":function(){
+<<<<<<< HEAD
+/* /titanium/Ti/UI/WebView.js */
+=======
 /* E:\TitaniumWorkspace\RBS\build\mobileweb\titanium\Ti\UI\WebView.js */
+>>>>>>> 291e3d13c9a6ef14948c30cf0d8e7695a8e14f46
 
 /*global define, window*/
 define(['Ti/_/declare', 'Ti/_/UI/Widget', 'Ti/_/dom', 'Ti/_/event', 'Ti/_/lang', 'Ti/_/text!Ti/_/UI/WebViewBridge.js', 'Ti/App', 'Ti/API', 'Ti/UI', 'Ti/_/style'],
@@ -17303,7 +17739,11 @@ w.onunload = function() {\n\
 	u && u();\n\
 };",
 "Ti/UI/Window":function(){
+<<<<<<< HEAD
+/* /titanium/Ti/UI/Window.js */
+=======
 /* E:\TitaniumWorkspace\RBS\build\mobileweb\titanium\Ti\UI\Window.js */
+>>>>>>> 291e3d13c9a6ef14948c30cf0d8e7695a8e14f46
 
 define(["Ti/_/declare", "Ti/Gesture", "Ti/Locale", "Ti/_/UI/SuperView", "Ti/UI"],
 	function(declare, Gesture, Locale, SuperView, UI) {
@@ -17404,7 +17844,11 @@ define(["Ti/_/declare", "Ti/Gesture", "Ti/Locale", "Ti/_/UI/SuperView", "Ti/UI"]
 });
 },
 "Ti/_/colors":function(){
+<<<<<<< HEAD
+/* /titanium/Ti/_/colors.js */
+=======
 /* E:\TitaniumWorkspace\RBS\build\mobileweb\titanium\Ti\_\colors.js */
+>>>>>>> 291e3d13c9a6ef14948c30cf0d8e7695a8e14f46
 
 define({
 	antiquewhite: [250,235,215],
@@ -17558,7 +18002,11 @@ define({
 
 },
 "Ti/_/image":function(){
+<<<<<<< HEAD
+/* /titanium/Ti/_/image.js */
+=======
 /* E:\TitaniumWorkspace\RBS\build\mobileweb\titanium\Ti\_\image.js */
+>>>>>>> 291e3d13c9a6ef14948c30cf0d8e7695a8e14f46
 
 define(function() {
 	return {
@@ -17580,7 +18028,11 @@ define(function() {
 
 },
 "Ti/_/text":function(){
+<<<<<<< HEAD
+/* /titanium/Ti/_/text.js */
+=======
 /* E:\TitaniumWorkspace\RBS\build\mobileweb\titanium\Ti\_\text.js */
+>>>>>>> 291e3d13c9a6ef14948c30cf0d8e7695a8e14f46
 
 define(function() {
 	var cache = {};
