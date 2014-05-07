@@ -12,7 +12,7 @@ exports.openWin = function(navGroup, winName, payload) {
 		}
 	} else {
 
-		var w = Alloy.createController(winName).getView();
+		var w = Alloy.createController(winName,payload||{}).getView();
 
 	};
 
