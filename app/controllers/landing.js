@@ -32,8 +32,7 @@ function scanClicked() {
 			animate : true,
 			overlay : overlay,
 			showCancel : true,
-			showRectangle : true,
-			// keepOpen : true
+			showRectangle : true
 		});
 	} else if (OS_MOBILEWEB) {
 		alert("Sorry! This feature is not available on a browser.");
@@ -43,7 +42,7 @@ function scanClicked() {
 
 if (!OS_MOBILEWEB) {
 	var Barcode = require('ti.barcode');
-	Barcode.allowRotation = true;
+	Barcode.allowRotation = false;
 	Barcode.displayedMessage = '';
 	Barcode.allowMenu = false;
 	Barcode.allowInstructions = true;
@@ -62,14 +61,13 @@ if (!OS_MOBILEWEB) {
 		text : 'Show us the prescription you want to refill.',
 		textAlign : 'center',
 		color : '#fff',
-		backgroundColor : 'transparent',
+		backgroundColor : '#888888',
 		font : {
 			fontWeight : 'bold',
 			fontSize : 16
 		},
 		borderColor : 'transparent',
 		opacity : 1,
-		width : 400,
 		height : 30,
 		top : 10
 	});
@@ -79,13 +77,12 @@ if (!OS_MOBILEWEB) {
 		text : "Center the bar code within the rectangle. Hold the phone still from 6-8 inches away until it's scanned.",
 		textAlign : 'center',
 		color : '#fff',
-		backgroundColor : 'transparent',
+		backgroundColor : '#888888',
 		font : {
 			fontSize : 14
 		},
 		borderColor : 'transparent',
 		opacity : 1,
-		width : 450,
 		height : 40,
 		bottom : 0
 	});
@@ -94,10 +91,6 @@ if (!OS_MOBILEWEB) {
 	//Barcode scan: Success
 	Barcode.addEventListener('success', function(e) {
 		rxNumber = e.result;
-
-		// Barcode.cancel();
-
-		//alert('Success called with barcode: ' + e.result);
 		loadNextPage();
 	});
 
@@ -105,6 +98,11 @@ if (!OS_MOBILEWEB) {
 	Barcode.addEventListener('error', function(e) {
 		// Barcode.cancel();
 		alert('No valid barcode found. Please scan again.');
+	});
+	
+	//Barcode Scan: Cancel
+	Barcode.addEventListener('cancel', function(e) {
+		Barcode.cancel();
 	});
 
 	//On successful scan

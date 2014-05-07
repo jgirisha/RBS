@@ -1,9 +1,10 @@
 <Alloy>
 	<Window id='winContactInfo' title='Enter your contact info'>
 		<View layout='vertical'>
-			<ImageView id="imgcontactinfo" image="/images/imgcontact.png" width="Ti.UI.SIZE"/>
+			<ImageView id="imgcontactinfo" image="/images/imgcontact.PNG" width="Ti.UI.SIZE"/>
 			<Label id="lblcontactinfoinstruction" text="Just in case we need to contact you regarding your prescription."/>
 			<TextField id="txtmobilenumber" hintText="Mobile number" class="numericField" onReturn="btnNextClicked" />
+			<Button id="btnNext" platform="ios" onClick="btnNextClicked">Next</Button>
 		</View>
 	</Window>
 </Alloy>
