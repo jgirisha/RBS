@@ -1,13 +1,21 @@
+<<<<<<< HEAD
 ts	1399445927000
 Default-Landscape.jpg	36232
 Default-Portrait.jpg	28479
 Default.jpg	17184
+=======
+ts	1399457889000
+Default-Landscape.jpg	32729
+Default-Portrait.jpg	24152
+Default.jpg	16382
+>>>>>>> 291e3d13c9a6ef14948c30cf0d8e7695a8e14f46
 alloy
 	CFG.js	35
 	backbone.js	53109
 	constants.js	5916
 	controllers
 		BaseController.js	6531
+<<<<<<< HEAD
 		contactInfo.js	1096
 		index.js	1639
 		landing.js	4108
@@ -19,6 +27,19 @@ alloy
 		landing.js	2703
 		refillDetails.js	3472
 		refillSuccess.js	2804
+=======
+		contactInfo.js	3181
+		index.js	1639
+		landing.js	3762
+		refillDetails.js	11936
+		refillSuccess.js	5312
+	styles
+		contactInfo.js	2024
+		index.js	1942
+		landing.js	2813
+		refillDetails.js	3805
+		refillSuccess.js	3137
+>>>>>>> 291e3d13c9a6ef14948c30cf0d8e7695a8e14f46
 	sync
 		localStorage.js	1913
 		properties.js	1848
@@ -28,6 +49,7 @@ alloy
 	widgets
 alloy.js	9061
 app.js	399
+<<<<<<< HEAD
 appicon.png	18020
 appicon144.png	20987
 apple-touch-icon-114x114-precomposed.png	14012
@@ -36,10 +58,23 @@ apple-touch-icon-72x72-precomposed.png	7641
 apple-touch-icon-precomposed.png	5449
 apple_startup_images	36232
 favicon.ico	0
+=======
+appicon.png	16659
+appicon144.png	23341
+apple-touch-icon-114x114-precomposed.png	15820
+apple-touch-icon-57x57-precomposed.png	6790
+apple-touch-icon-72x72-precomposed.png	8844
+apple-touch-icon-precomposed.png	6790
+apple_startup_images	32729
+>>>>>>> 291e3d13c9a6ef14948c30cf0d8e7695a8e14f46
 images
 	calendar.png	5176
 	distancePin.png	1610
 	imgRefillSuccess.png	626149
+<<<<<<< HEAD
+=======
+	imgcontact.PNG	2078
+>>>>>>> 291e3d13c9a6ef14948c30cf0d8e7695a8e14f46
 	map.png	47882
 	meijer
 		imageBG.png	3421
@@ -47,42 +82,47 @@ images
 	mscripts
 		imageBG.png	3459
 		image_HeaderLogo.png	10797
-mobileweb
+<<<<<<< HEAD
+=======
+iphone
+	Default-568h@2x.png	502634
+	Default-Landscape.png	296912
+	Default-Landscape@2x.png	852069
+	Default-Portrait.png	207750
+	Default-Portrait@2x.png	900687
+	Default.png	104301
+	Default@2x.png	343708
 	alloy
 		CFG.js	35
-		backbone.js	53109
-		constants.js	5916
+		backbone.js	54540
+		constants.js	6119
 		controllers
-			BaseController.js	6531
-			contactInfo.js	1096
-			index.js	1639
-			landing.js	4108
-			refillDetails.js	11795
-			refillSuccess.js	5312
+			BaseController.js	6752
+			index.js	1324
+			landing.js	6638
+			refillDetails.js	12235
+			refillSuccess.js	5748
 		styles
-			contactInfo.js	1490
-			index.js	1609
-			landing.js	2703
-			refillDetails.js	3472
-			refillSuccess.js	2804
+			index.js	1693
+			landing.js	2798
+			refillDetails.js	3567
+			refillSuccess.js	2899
 		sync
-			localStorage.js	1913
-			properties.js	1848
-			sql.js	12029
-		underscore.js	41425
-		widget.js	1455
-		widgets
-	alloy.js	9061
-	app.js	399
-	appicon.png	18020
-	apple_startup_images
-		Default-Landscape.jpg	36232
-		Default-Landscape.png	513333
-		Default-Portrait.jpg	28479
-		Default-Portrait.png	76153
-		Default.jpg	17184
-		Default.png	110858
-		README	492
+			localStorage.js	2066
+			properties.js	1899
+			sql.js	12902
+		underscore.js	42651
+		widget.js	1502
+	alloy.js	9308
+	app.js	418
+	appicon-72.png	8445
+	appicon-72@2x.png	21003
+	appicon-Small-50.png	5116
+	appicon-Small.png	2393
+	appicon-Small@2x.png	6254
+	appicon.png	6106
+	appicon@2x.png	15471
+	iTunesArtwork	211013
 	images
 		calendar.png	5176
 		distancePin.png	1610
@@ -94,13 +134,101 @@ mobileweb
 		mscripts
 			imageBG.png	3459
 			image_HeaderLogo.png	10797
+	xpng.js	1306
+>>>>>>> 291e3d13c9a6ef14948c30cf0d8e7695a8e14f46
+mobileweb
+	alloy
+		CFG.js	35
+		backbone.js	53109
+		constants.js	5916
+		controllers
+			BaseController.js	6531
+<<<<<<< HEAD
+			contactInfo.js	1096
+			index.js	1639
+			landing.js	4108
+			refillDetails.js	11795
+			refillSuccess.js	5312
+		styles
+			contactInfo.js	1490
+			index.js	1609
+			landing.js	2703
+			refillDetails.js	3472
+			refillSuccess.js	2804
+=======
+			contactInfo.js	3181
+			index.js	1639
+			landing.js	3762
+			refillDetails.js	11936
+			refillSuccess.js	5312
+		styles
+			contactInfo.js	2024
+			index.js	1942
+			landing.js	2813
+			refillDetails.js	3805
+			refillSuccess.js	3137
+>>>>>>> 291e3d13c9a6ef14948c30cf0d8e7695a8e14f46
+		sync
+			localStorage.js	1913
+			properties.js	1848
+			sql.js	12029
+		underscore.js	41425
+		widget.js	1455
+		widgets
+	alloy.js	9061
+	app.js	399
+<<<<<<< HEAD
+	appicon.png	18020
+	apple_startup_images
+		Default-Landscape.jpg	36232
+		Default-Landscape.png	513333
+		Default-Portrait.jpg	28479
+		Default-Portrait.png	76153
+		Default.jpg	17184
+		Default.png	110858
+		README	492
+=======
+	appicon.png	16659
+	apple_startup_images
+		Default-Landscape.jpg	32729
+		Default-Landscape.png	446500
+		Default-Portrait.jpg	24152
+		Default-Portrait.png	56963
+		Default.jpg	16382
+		Default.png	87123
+		README	500
+>>>>>>> 291e3d13c9a6ef14948c30cf0d8e7695a8e14f46
+	images
+		calendar.png	5176
+		distancePin.png	1610
+		imgRefillSuccess.png	626149
+<<<<<<< HEAD
+=======
+		imgcontact.PNG	2078
+>>>>>>> 291e3d13c9a6ef14948c30cf0d8e7695a8e14f46
+		map.png	47882
+		meijer
+			imageBG.png	3421
+			image_HeaderLogo.png	4970
+		mscripts
+			imageBG.png	3459
+			image_HeaderLogo.png	10797
 	splash
+<<<<<<< HEAD
 		README	2040
 		appc.png	11665
 		splash.css	1276
 		splash.html	0
 		titanium.png	10902
 	xpng.js	451
+=======
+		README	2089
+		appc.png	10633
+		splash.css	1335
+		splash.html	0
+		titanium.png	10100
+	xpng.js	466
+>>>>>>> 291e3d13c9a6ef14948c30cf0d8e7695a8e14f46
 themes
 	common.css	7479
 	default
@@ -255,6 +383,12 @@ titanium
 	Ti.js	7424
 	dependencies.json	10366
 	package.json	660
+<<<<<<< HEAD
 titanium.css	39687
 titanium.js	480196
 xpng.js	451
+=======
+titanium.css	37302
+titanium.js	484716
+xpng.js	466
+>>>>>>> 291e3d13c9a6ef14948c30cf0d8e7695a8e14f46

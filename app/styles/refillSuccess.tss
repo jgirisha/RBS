@@ -1,15 +1,15 @@
 
-".container" : {
-  backgroundColor: "white"
+".container": {
+	backgroundColor: "white"
 }
 
 "#successScrollView":{
 	top: 0,
 	width: "100%",
 	height: Ti.UI.FILL,
-	 showVerticalScrollIndicator: true,
-	 showHorizontalScrollIndicator: false,
-	 backgroundColor: "white"
+	showVerticalScrollIndicator: true,
+	showHorizontalScrollIndicator: false,
+	backgroundColor: "white"
 }
 
 "#detailView":{
@@ -28,11 +28,11 @@
 	height: "150dp",
 	right: 0,
 	backgroundColor: "white"
-	}
+}
 
 "#messageLabel":{
 	top: '30dp',
-		font: {
+	font: {
 		fontSize: 14
 	},
 	textAlign: Ti.UI.TEXT_ALIGNMENT_CENTER
@@ -47,7 +47,7 @@
 	bottom: '15dp',
 	right: '10dp',
 	backgroundColor: "white"
-	}
+}
 
 "#pickupDateDetails":{
 	left: "110dp",
@@ -56,21 +56,20 @@
 }
 
 "#dateLabel":{
-		font: {
+	font: {
 		fontSize: 15,
-				fontWeight: "bold"
+		fontWeight: "bold"
+	}
+}
 
-	}
-	}
-	
-	
+
 "#timeLabel":{
-		font: {
+	font: {
 		fontSize: 17,
 		fontWeight: "bold"
 	},
 	color: "black"
-	}
+}
 
 
 "#orderRefillButton":{

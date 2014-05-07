@@ -7,7 +7,7 @@ exports.openWin = function(navGroup, winName, payload) {
                 w[payloadKeys[index]] = payload[item];
             });
         }
-    } else var w = Alloy.createController(winName).getView();
+    } else var w = Alloy.createController(winName, payload || {}).getView();
     navGroup.open(w, {
         animated: true
     });

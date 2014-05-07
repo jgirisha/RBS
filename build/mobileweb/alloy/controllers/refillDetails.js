@@ -362,7 +362,13 @@ function Controller() {
     });
     exports.destroy = function() {};
     _.extend($, $.__views);
+<<<<<<< HEAD
     arguments[0] || {};
+=======
+    var args = arguments[0] || {};
+    $.rxNumStoreLabel.text = "RX#" + args.rxNumber + " at mscripts Test Store";
+    $.contactValueLabel.text = args.mobileNumber;
+>>>>>>> 291e3d13c9a6ef14948c30cf0d8e7695a8e14f46
     var loadSuccessPageFlag = 0;
     __defers["$.__views.orderRefillButton!click!orderRefillClicked"] && $.__views.orderRefillButton.addEventListener("click", orderRefillClicked);
     _.extend($, exports);

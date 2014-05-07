@@ -8,6 +8,7 @@ function Controller() {
             Alloy.Globals.clientColor = "#ee6e1a";
         }
         $.logoImage.image = "/images/" + Alloy.Globals.clientName + "/image_HeaderLogo.png";
+<<<<<<< HEAD
         $.rbs.color = Alloy.Globals.clientColor;
         $.rbs.borderColor = Alloy.Globals.clientColor;
         $.switchClient.color = Alloy.Globals.clientColor;
@@ -24,6 +25,15 @@ function Controller() {
             showRectangle: true,
             keepOpen: true
         });
+=======
+        $.scan.color = Alloy.Globals.clientColor;
+        $.scan.borderColor = Alloy.Globals.clientColor;
+        $.switchClient.color = Alloy.Globals.clientColor;
+        $.footerLabel.backgroundColor = Alloy.Globals.clientColor;
+    }
+    function scanClicked() {
+        alert("Sorry! This feature is not available on a browser.");
+>>>>>>> 291e3d13c9a6ef14948c30cf0d8e7695a8e14f46
     }
     require("alloy/controllers/BaseController").apply(this, Array.prototype.slice.call(arguments));
     this.__controllerPath = "landing";
@@ -54,9 +64,15 @@ function Controller() {
         id: "logoImage"
     });
     $.__views.landing.add($.__views.logoImage);
+<<<<<<< HEAD
     $.__views.rbs = Ti.UI.createButton({
         center: {
             x: "30%",
+=======
+    $.__views.scan = Ti.UI.createButton({
+        center: {
+            x: "50%",
+>>>>>>> 291e3d13c9a6ef14948c30cf0d8e7695a8e14f46
             y: "50%"
         },
         width: "100dp",
@@ -66,10 +82,17 @@ function Controller() {
         borderColor: Alloy.Globals.clientColor,
         borderWidth: 2,
         title: "Refill by Scan",
+<<<<<<< HEAD
         id: "rbs"
     });
     $.__views.landing.add($.__views.rbs);
     rbsClicked ? $.__views.rbs.addEventListener("click", rbsClicked) : __defers["$.__views.rbs!click!rbsClicked"] = true;
+=======
+        id: "scan"
+    });
+    $.__views.landing.add($.__views.scan);
+    scanClicked ? $.__views.scan.addEventListener("click", scanClicked) : __defers["$.__views.scan!click!scanClicked"] = true;
+>>>>>>> 291e3d13c9a6ef14948c30cf0d8e7695a8e14f46
     $.__views.switchClient = Ti.UI.createButton({
         bottom: "50dp",
         width: Ti.UI.FILL,
@@ -101,9 +124,12 @@ function Controller() {
     _.extend($, $.__views);
     arguments[0] || {};
     $.logoImage.image = "/images/" + Alloy.Globals.clientName + "/image_HeaderLogo.png";
+<<<<<<< HEAD
     var Barcode;
     var overlay;
     __defers["$.__views.rbs!click!rbsClicked"] && $.__views.rbs.addEventListener("click", rbsClicked);
+=======
+>>>>>>> 291e3d13c9a6ef14948c30cf0d8e7695a8e14f46
     __defers["$.__views.scan!click!scanClicked"] && $.__views.scan.addEventListener("click", scanClicked);
     __defers["$.__views.switchClient!click!switchClient"] && $.__views.switchClient.addEventListener("click", switchClient);
     _.extend($, exports);

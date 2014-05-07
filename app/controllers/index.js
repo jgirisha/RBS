@@ -1,7 +1,7 @@
 if (OS_ANDROID) {
 	$.index.open();
 } else if (OS_MOBILEWEB) {
-		Alloy.CFG.nav = $.navGroup;
+	Alloy.CFG.nav = $.navGroup;
 	$.indexWeb.open();
 	var profileController = Alloy.createController('landing');
 	var myview = profileController.getView();

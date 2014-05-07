@@ -1,31 +1,39 @@
 
 
 "Window": {
-	backgroundColor:"white",
+	backgroundColor: "white",
 	barColor: Alloy.Globals.clientColor,
 	navTintColor: "White"
 }
 
 "Window[platform=ios]":{
-	    titleAttributes:  {
-        color:"white"
-    }
+	titleAttributes:  {
+		color: "white"
+	}
 }
 
 "Window[platform=android]": {
-    navBarHidden: false
+	navBarHidden: false
 }
 
 "Label":{
 	color: Alloy.Globals.clientColor,
 	width: Ti.UI.FILL,
 	textAlign: Ti.UI.TEXT_ALIGNMENT_CENTER
-
 }
 
 "View":{
 	top: 0,
 	height: Titanium.UI.SIZE
+}
+
+"TextField":{
+	borderStyle: Ti.UI.INPUT_BORDERSTYLE_ROUNDED,
+	borderRadius: 5,
+	width: Ti.UI.FILL,
+	top: '15dp',
+	left: '10dp',
+	right: '10dp'
 }
 
 ".grayLabel":{
@@ -47,39 +55,35 @@
 	right: '10dp',
 	height: 'auto',
 	color: "#999",
-		verticalAlign: Ti.UI.TEXT_VERTICAL_ALIGNMENT_CENTER,
-		textAlign: Ti.UI.TEXT_ALIGNMENT_LEFT,
+	verticalAlign: Ti.UI.TEXT_VERTICAL_ALIGNMENT_CENTER,
+	textAlign: Ti.UI.TEXT_ALIGNMENT_LEFT,
 	font: {
 		fontSize: 14,
 		fontWeight: "bold"
 	}
 }
 
-
-
 ".sectionHeaderView":{
-		backgroundColor: "#eeeeee",
-		top: '10dp',
-		height: '20dp',
-		width: "100%"		
+	backgroundColor: "#eeeeee",
+	top: '10dp',
+	height: '20dp',
+	width: "100%"
 }
+
 ".sectionHeaderLabel":{
 	color: "#999",
 	font: {
 		fontSize: 14,
 		fontWeight: "bold"
 	},
-		textAlign: Ti.UI.TEXT_ALIGNMENT_LEFT,
+	textAlign: Ti.UI.TEXT_ALIGNMENT_LEFT,
 	left: '10dp',
-			height: '20dp',
-			width: "100%",
-			right: '10dp'
-
+	height: '20dp',
+	width: "100%",
+	right: '10dp'
 }
 
-
 ".themeButton":{
-	
 	top: '5dp',
 	left: "5dp",
 	width: Ti.UI.FILL,
@@ -90,5 +94,9 @@
 	color: "White",
 	selectedColor: "black",
 	borderRadius: 5
-	
+}
+
+".numericField":{
+	keyboardType: Titanium.UI.KEYBOARD_PHONE_PAD,
+	returnKeyType: Titanium.UI.RETURNKEY_DONE
 }

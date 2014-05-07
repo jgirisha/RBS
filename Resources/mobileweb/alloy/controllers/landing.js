@@ -8,23 +8,13 @@ function Controller() {
             Alloy.Globals.clientColor = "#ee6e1a";
         }
         $.logoImage.image = "/images/" + Alloy.Globals.clientName + "/image_HeaderLogo.png";
-        $.rbs.color = Alloy.Globals.clientColor;
-        $.rbs.borderColor = Alloy.Globals.clientColor;
+        $.scan.color = Alloy.Globals.clientColor;
+        $.scan.borderColor = Alloy.Globals.clientColor;
         $.switchClient.color = Alloy.Globals.clientColor;
         $.footerLabel.backgroundColor = Alloy.Globals.clientColor;
     }
-    function rbsClicked() {
-        var xpng = require("xpng");
-        xpng.openWin(Alloy.CFG.nav, "refillDetails");
-    }
     function scanClicked() {
-        Barcode.capture({
-            animate: true,
-            overlay: overlay,
-            showCancel: true,
-            showRectangle: true,
-            keepOpen: true
-        });
+        alert("Sorry! This feature is not available on a browser.");
     }
     require("alloy/controllers/BaseController").apply(this, Array.prototype.slice.call(arguments));
     this.__controllerPath = "landing";
@@ -55,9 +45,9 @@ function Controller() {
         id: "logoImage"
     });
     $.__views.landing.add($.__views.logoImage);
-    $.__views.rbs = Ti.UI.createButton({
+    $.__views.scan = Ti.UI.createButton({
         center: {
-            x: "30%",
+            x: "50%",
             y: "50%"
         },
         width: "100dp",
@@ -67,10 +57,10 @@ function Controller() {
         borderColor: Alloy.Globals.clientColor,
         borderWidth: 2,
         title: "Refill by Scan",
-        id: "rbs"
+        id: "scan"
     });
-    $.__views.landing.add($.__views.rbs);
-    rbsClicked ? $.__views.rbs.addEventListener("click", rbsClicked) : __defers["$.__views.rbs!click!rbsClicked"] = true;
+    $.__views.landing.add($.__views.scan);
+    scanClicked ? $.__views.scan.addEventListener("click", scanClicked) : __defers["$.__views.scan!click!scanClicked"] = true;
     $.__views.switchClient = Ti.UI.createButton({
         bottom: "50dp",
         width: Ti.UI.FILL,
@@ -102,9 +92,6 @@ function Controller() {
     _.extend($, $.__views);
     arguments[0] || {};
     $.logoImage.image = "/images/" + Alloy.Globals.clientName + "/image_HeaderLogo.png";
-    var Barcode;
-    var overlay;
-    __defers["$.__views.rbs!click!rbsClicked"] && $.__views.rbs.addEventListener("click", rbsClicked);
     __defers["$.__views.scan!click!scanClicked"] && $.__views.scan.addEventListener("click", scanClicked);
     __defers["$.__views.switchClient!click!switchClient"] && $.__views.switchClient.addEventListener("click", switchClient);
     _.extend($, exports);

@@ -1,16 +1,15 @@
-
 ".ver":{
 	top: 0,
-	width:Ti.UI.FILL,
-	heigth:Ti.UI.FILL
-},
+	width: Ti.UI.FILL,
+	heigth: Ti.UI.FILL
+}
 
 "#landing":{
-		height: Titanium.UI.FILL
+	height: Titanium.UI.FILL
 }
 
 "#landing[platform=android]": {
-    exitOnClose: true
+	exitOnClose: true
 }
 
 
@@ -23,27 +22,14 @@
 	center:{
 		x: "50%",
 		y: '100dp'
-	} 
+	}
 }
 
 
-"#rbs":{
-		center:{
-		x: "30%",
-		y: "50%"
-	} ,
-
-	width: '100dp',
-	height: '100dp',
-	color: Alloy.Globals.clientColor,
-	backgroundColor: "white",
-	borderColor: Alloy.Globals.clientColor,
-	borderWidth: 2
-}
 
 "#scan":{
-		center:{
-		x: "70%",
+	center:{
+		x: "50%",
 		y: "50%"
 	} ,
 
@@ -53,7 +39,6 @@
 	backgroundColor: "white",
 	borderColor: Alloy.Globals.clientColor,
 	borderWidth: 2
-
 }
 
 "#switchClient":{
@@ -62,19 +47,16 @@
 	height: '30dp',
 	color: Alloy.Globals.clientColor,
 	backgroundColor: "white"
-
 }
 
 "#footerLabel":{
-	
 	bottom: 0,
 	height: '20dp',
 	color: "white",
 	backgroundColor: Alloy.Globals.clientColor,
-		font: {
+	font: {
 		fontSize: 14,
 		fontWeight: "bold"
 	},
-			verticalAlign: Ti.UI.TEXT_VERTICAL_ALIGNMENT_BOTTOM
-
+	verticalAlign: Ti.UI.TEXT_VERTICAL_ALIGNMENT_BOTTOM
 }

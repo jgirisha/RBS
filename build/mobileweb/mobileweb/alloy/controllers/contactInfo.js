@@ -1,4 +1,21 @@
 function Controller() {
+<<<<<<< HEAD
+=======
+    function btnNextClicked() {
+        if (isNaN($.txtmobilenumber.value) || 10 != $.txtmobilenumber.value.length) alert("Please enter a valid mobile number."); else {
+            var xpng = require("xpng");
+            xpng.openWin(Alloy.CFG.nav, "refillDetails", {
+                mobileNumber: $.txtmobilenumber.value,
+                rxNumber: args.rxNumber
+            });
+            Ti.App.addEventListener("closeView", function() {
+                $.winContactInfo.close({
+                    animated: false
+                });
+            });
+        }
+    }
+>>>>>>> 291e3d13c9a6ef14948c30cf0d8e7695a8e14f46
     require("alloy/controllers/BaseController").apply(this, Array.prototype.slice.call(arguments));
     this.__controllerPath = "contactInfo";
     arguments[0] ? arguments[0]["__parentSymbol"] : null;
@@ -6,12 +23,20 @@ function Controller() {
     arguments[0] ? arguments[0]["__itemTemplate"] : null;
     var $ = this;
     var exports = {};
+<<<<<<< HEAD
+=======
+    var __defers = {};
+>>>>>>> 291e3d13c9a6ef14948c30cf0d8e7695a8e14f46
     $.__views.winContactInfo = Ti.UI.createWindow({
         backgroundColor: "white",
         barColor: Alloy.Globals.clientColor,
         navTintColor: "White",
         id: "winContactInfo",
+<<<<<<< HEAD
         title: "Enter our contact info"
+=======
+        title: "Enter your contact info"
+>>>>>>> 291e3d13c9a6ef14948c30cf0d8e7695a8e14f46
     });
     $.__views.winContactInfo && $.addTopLevelView($.__views.winContactInfo);
     $.__views.__alloyId0 = Ti.UI.createView({
@@ -21,8 +46,48 @@ function Controller() {
         id: "__alloyId0"
     });
     $.__views.winContactInfo.add($.__views.__alloyId0);
+<<<<<<< HEAD
     exports.destroy = function() {};
     _.extend($, $.__views);
+=======
+    $.__views.imgcontactinfo = Ti.UI.createImageView({
+        top: 20,
+        height: 100,
+        id: "imgcontactinfo",
+        image: "/images/imgcontact.png",
+        width: Ti.UI.SIZE
+    });
+    $.__views.__alloyId0.add($.__views.imgcontactinfo);
+    $.__views.lblcontactinfoinstruction = Ti.UI.createLabel({
+        color: Alloy.Globals.clientColor,
+        width: Ti.UI.FILL,
+        textAlign: Ti.UI.TEXT_ALIGNMENT_CENTER,
+        left: "10dp",
+        right: "10dp",
+        top: "15dp",
+        id: "lblcontactinfoinstruction",
+        text: "Just in case we need to contact you regarding your prescription."
+    });
+    $.__views.__alloyId0.add($.__views.lblcontactinfoinstruction);
+    $.__views.txtmobilenumber = Ti.UI.createTextField({
+        borderStyle: Ti.UI.INPUT_BORDERSTYLE_ROUNDED,
+        borderRadius: 5,
+        width: Ti.UI.FILL,
+        top: "15dp",
+        left: "10dp",
+        right: "10dp",
+        keyboardType: Titanium.UI.KEYBOARD_PHONE_PAD,
+        returnKeyType: Titanium.UI.RETURNKEY_DONE,
+        id: "txtmobilenumber",
+        hintText: "Mobile number"
+    });
+    $.__views.__alloyId0.add($.__views.txtmobilenumber);
+    btnNextClicked ? $.__views.txtmobilenumber.addEventListener("return", btnNextClicked) : __defers["$.__views.txtmobilenumber!return!btnNextClicked"] = true;
+    exports.destroy = function() {};
+    _.extend($, $.__views);
+    var args = arguments[0] || {};
+    __defers["$.__views.txtmobilenumber!return!btnNextClicked"] && $.__views.txtmobilenumber.addEventListener("return", btnNextClicked);
+>>>>>>> 291e3d13c9a6ef14948c30cf0d8e7695a8e14f46
     _.extend($, exports);
 }
 
