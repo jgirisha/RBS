@@ -1,0 +1,17 @@
+"#index[platform=android]":{
+	 backgroundColor:"white",
+	 exitOnClose:"true",
+	 navBarHidden:"true"
+}
+
+"#landing[platform=ios]":{
+ 	backgroundColor:"white",
+ 	navBarHidden:"true"
+}
+
+"#landing[platform=mobileweb]":{
+ 	backgroundColor:"white",
+ 	navBarHidden:"true",
+ 	modal: true
+}
+
