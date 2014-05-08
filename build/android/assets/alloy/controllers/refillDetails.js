@@ -54,6 +54,7 @@ function Controller() {
         showVerticalScrollIndicator: true,
         showHorizontalScrollIndicator: false,
         backgroundColor: "white",
+        horizontalBounce: false,
         id: "detailsScrollView"
     });
     $.__views.__alloyId3.add($.__views.detailsScrollView);

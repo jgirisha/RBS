@@ -14,13 +14,12 @@ function Controller() {
         $.footerLabel.backgroundColor = Alloy.Globals.clientColor;
     }
     function scanClicked() {
-        Barcode.capture({
+        1 === Ti.Media.CAMERA_REAR ? Barcode.capture({
             animate: true,
             overlay: overlay,
             showCancel: false,
-            showRectangle: true,
-            allowRotation: false
-        });
+            showRectangle: true
+        }) : alert("Sorry! This feature is not available on your device.");
     }
     function loadNextPage() {
         var xpng = require("xpng");
@@ -106,63 +105,61 @@ function Controller() {
     arguments[0] || {};
     var rxNumber = "";
     $.logoImage.image = "/images/" + Alloy.Globals.clientName + "/image_HeaderLogo.png";
-    var Barcode = require("ti.barcode");
-    Barcode.allowRotation = false;
-    Barcode.displayedMessage = "";
-    Barcode.allowMenu = false;
-    Barcode.allowInstructions = true;
-    Barcode.useLED = false;
-    var overlay = Ti.UI.createView({
-        backgroundColor: "transparent",
-        top: 0,
-        right: 0,
-        bottom: 0,
-        left: 0
-    });
-    var lblInsructionTop = Ti.UI.createLabel({
-        text: "Show us the prescription you want to refill.",
-        textAlign: "center",
-        color: "#fff",
-        backgroundColor: "transparent",
-        font: {
-            fontSize: 16
-        },
-        borderColor: "transparent",
-        opacity: 1,
-        height: 30,
-        width: Ti.UI.FILL,
-        top: "10dp",
-        left: "5dp",
-        right: "5dp"
-    });
-    overlay.add(lblInsructionTop);
-    var lblInsructionBottom = Ti.UI.createLabel({
-        text: "Center the bar code within the rectangle. Hold the phone still from 6-8 inches away until it's scanned.",
-        textAlign: "center",
-        color: "#fff",
-        backgroundColor: "transparent",
-        font: {
-            fontSize: 14
-        },
-        borderColor: "transparent",
-        opacity: 1,
-        height: "40dp",
-        width: Ti.UI.FILL,
-        bottom: 0,
-        left: "5dp",
-        right: "5dp"
-    });
-    overlay.add(lblInsructionBottom);
-    Barcode.addEventListener("success", function(e) {
-        rxNumber = e.result;
-        loadNextPage();
-    });
-    Barcode.addEventListener("error", function() {
-        alert("No valid barcode found. Please scan again.");
-    });
-    Barcode.addEventListener("cancel", function() {
-        Barcode.cancel();
-    });
+    if (1 === Ti.Media.CAMERA_REAR) {
+        var Barcode = require("ti.barcode");
+        Barcode.displayedMessage = "";
+        Barcode.allowMenu = false;
+        Barcode.allowInstructions = true;
+        Barcode.useLED = false;
+        var overlay = Ti.UI.createView({
+            backgroundColor: "transparent",
+            top: 0,
+            right: 0,
+            bottom: 0,
+            left: 0
+        });
+        var lblInsructionTop = Ti.UI.createLabel({
+            text: "Show us the prescription you want to refill.",
+            textAlign: "center",
+            color: "#fff",
+            backgroundColor: "transparent",
+            font: {
+                fontSize: 16
+            },
+            borderColor: "transparent",
+            opacity: 1,
+            height: 30,
+            width: Ti.UI.FILL,
+            top: "10dp",
+            left: "5dp",
+            right: "5dp"
+        });
+        overlay.add(lblInsructionTop);
+        var lblInsructionBottom = Ti.UI.createLabel({
+            text: "Center the bar code within the rectangle. Hold the phone still from 6-8 inches away until it's scanned.",
+            textAlign: "center",
+            color: "#fff",
+            backgroundColor: "transparent",
+            font: {
+                fontSize: 14
+            },
+            borderColor: "transparent",
+            opacity: 1,
+            height: "40dp",
+            width: Ti.UI.FILL,
+            bottom: 0,
+            left: "5dp",
+            right: "5dp"
+        });
+        overlay.add(lblInsructionBottom);
+        Barcode.addEventListener("success", function(e) {
+            rxNumber = e.result;
+            loadNextPage();
+        });
+        Barcode.addEventListener("error", function() {
+            alert("No valid barcode found. Please scan again.");
+        });
+    }
     __defers["$.__views.scan!click!scanClicked"] && $.__views.scan.addEventListener("click", scanClicked);
     __defers["$.__views.switchClient!click!switchClient"] && $.__views.switchClient.addEventListener("click", switchClient);
     _.extend($, exports);

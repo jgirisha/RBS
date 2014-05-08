@@ -30,13 +30,24 @@ function Controller() {
         title: "Enter your contact info"
     });
     $.__views.winContactInfo && $.addTopLevelView($.__views.winContactInfo);
+    $.__views.contactScrollView = Ti.UI.createScrollView({
+        top: 0,
+        width: "100%",
+        height: Ti.UI.FILL,
+        showVerticalScrollIndicator: true,
+        showHorizontalScrollIndicator: false,
+        backgroundColor: "white",
+        horizontalBounce: false,
+        id: "contactScrollView"
+    });
+    $.__views.winContactInfo.add($.__views.contactScrollView);
     $.__views.__alloyId0 = Ti.UI.createView({
         top: 0,
         height: Titanium.UI.SIZE,
         layout: "vertical",
         id: "__alloyId0"
     });
-    $.__views.winContactInfo.add($.__views.__alloyId0);
+    $.__views.contactScrollView.add($.__views.__alloyId0);
     $.__views.imgcontactinfo = Ti.UI.createImageView({
         top: 20,
         height: 100,

@@ -2,7 +2,7 @@
 	"target": "device",
 	"deployType": "test",
 	"classname": "Refillbyscan",
-	"platformPath": "/Users/esimacmini2013/Library/Application Support/Titanium/mobilesdk/osx/3.2.2.GA/android",
+	"platformPath": "C:\\Users\\akumar\\AppData\\Roaming\\Titanium\\mobilesdk\\win32\\3.2.2.GA\\android",
 	"modulesHash": "5a42baf6e01a19e7c4995eafb5b3278c",
 	"modulesManifestHash": "393b546c3e447e5a32a66d784f7d24d6",
 	"modulesNativeHash": "a7a77eec47ee202d02e20f1ee7489623",
@@ -29,5 +29,5 @@
 	"activitiesHash": "d41d8cd98f00b204e9800998ecf8427e",
 	"servicesHash": "d41d8cd98f00b204e9800998ecf8427e",
 	"jssFilesHash": "d41d8cd98f00b204e9800998ecf8427e",
-	"jarLibHash": "f3210446f3e4631dd13586fcd5e9e1eb"
+	"jarLibHash": "a070420051b22f538f978d994599977a"
 }

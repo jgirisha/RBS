@@ -16,10 +16,9 @@ function switchClient() {
 
 	$.logoImage.image = "/images/" + Alloy.Globals.clientName + "/image_HeaderLogo.png";
 
-		$.scan.color = Alloy.Globals.clientColor;
-		$.scan.borderColor = Alloy.Globals.clientColor;
+	$.scan.color = Alloy.Globals.clientColor;
+	$.scan.borderColor = Alloy.Globals.clientColor;
 	$.switchClient.color = Alloy.Globals.clientColor;
-
 
 	$.footerLabel.backgroundColor = Alloy.Globals.clientColor;
 
@@ -27,22 +26,25 @@ function switchClient() {
 
 //Scan Barcode
 function scanClicked() {
-	if (OS_ANDROID || OS_IOS) {
+	//Check if Mobile Web
+	if (OS_MOBILEWEB) {
+		alert("Sorry! This feature is not available on a browser.");
+	}
+	//Check if device has camera feature supported
+	else if (Ti.Media.CAMERA_REAR === 1) {
+		//Initialize camera
 		Barcode.capture({
 			animate : true,
 			overlay : overlay,
 			showCancel : false,
 			showRectangle : true
 		});
-		
-		
-	} else if (OS_MOBILEWEB) {
-		alert("Sorry! This feature is not available on a browser.");
+	} else {
+		alert("Sorry! This feature is not available on your device.");
 	}
-
 }
 
-if (!OS_MOBILEWEB) {
+if (Ti.Media.CAMERA_REAR === 1) {
 	var Barcode = require('ti.barcode');
 	Barcode.displayedMessage = '';
 	Barcode.allowMenu = false;
@@ -62,17 +64,17 @@ if (!OS_MOBILEWEB) {
 		text : 'Show us the prescription you want to refill.',
 		textAlign : 'center',
 		color : '#fff',
-		backgroundColor : (OS_IOS)?'#888888':'transparent',
+		backgroundColor : (OS_IOS) ? '#888888' : 'transparent',
 		font : {
 			fontSize : 16
 		},
 		borderColor : 'transparent',
 		opacity : 1,
 		height : 30,
-		width: Ti.UI.FILL,
-		top : OS_IOS?'20dp':'10dp',
-		left: '5dp',
-		right:'5dp'
+		width : Ti.UI.FILL,
+		top : OS_IOS ? '20dp' : '10dp',
+		left : '5dp',
+		right : '5dp'
 	});
 	overlay.add(lblInsructionTop);
 
@@ -80,34 +82,43 @@ if (!OS_MOBILEWEB) {
 		text : "Center the bar code within the rectangle. Hold the phone still from 6-8 inches away until it's scanned.",
 		textAlign : 'center',
 		color : '#fff',
-		backgroundColor : (OS_IOS)?'#888888':'transparent',
+		backgroundColor : (OS_IOS) ? '#888888' : 'transparent',
 		font : {
 			fontSize : 14
 		},
 		borderColor : 'transparent',
 		opacity : 1,
-		height : OS_IOS?'60dp':'40dp',
-		width: Ti.UI.FILL,
+		height : OS_IOS ? '60dp' : '40dp',
+		width : Ti.UI.FILL,
 		bottom : 0,
-		left: '5dp',
-		right:'5dp'
+		left : '5dp',
+		right : '5dp'
 	});
 	overlay.add(lblInsructionBottom);
 
-	if(OS_IOS){
+	if (OS_IOS) {
 		var cancelButton = Ti.UI.createButton({
-    title: 'Cancel', textAlign: 'center',
-    color: '#000', backgroundColor: '#fff', style: 0,
-    font: { fontWeight: 'bold', fontSize: 16 },
-    borderColor: '#000', borderRadius: 10, borderWidth: 1,
-    opacity: 1,
-    width: 100, height: 30,
-    bottom: 80
-});
-cancelButton.addEventListener('click', function () {
-    Barcode.cancel();
-});
-overlay.add(cancelButton);
+			title : 'Cancel',
+			textAlign : 'center',
+			color : '#000',
+			backgroundColor : '#fff',
+			style : 0,
+			font : {
+				fontWeight : 'bold',
+				fontSize : 16
+			},
+			borderColor : '#000',
+			borderRadius : 10,
+			borderWidth : 1,
+			opacity : 1,
+			width : 100,
+			height : 30,
+			bottom : 80
+		});
+		cancelButton.addEventListener('click', function() {
+			Barcode.cancel();
+		});
+		overlay.add(cancelButton);
 
 	}
 
